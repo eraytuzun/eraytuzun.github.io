@@ -17,30 +17,30 @@ export default function () {
         <div style={{textAlign: 'center'}}>
             <h2>{name}</h2>
             <p style={{fontSize: '0.8em'}}>{status}</p>
-            <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left',}}>
                     <Link style={{textDecoration: 'none'}}>
                         <IconButton color="primary" style={{fontSize: '0.8em'}}>
-                            <PushPinIcon/> EA-501
+                            <PushPinIcon style={{color: '#3a3333'}}/> EA-501
                         </IconButton>
                     </Link>
 
                     <Link href={twitterLink} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
                         <IconButton color="primary" style={{fontSize: '0.8em'}}>
-                            <XIcon/> X Profile
+                            <XIcon style={{color: '#3a3333'}}/> X Profile
                         </IconButton>
                     </Link>
 
                     <Link href={linkedinLink} target="_blank" rel="noopener noreferrer"
                           style={{textDecoration: 'none'}}>
                         <IconButton color="primary" style={{fontSize: '0.8em'}}>
-                            <LinkedInIcon/> LinkedIn
+                            <LinkedInIcon style={{color: '#3a3333'}}/> LinkedIn
                         </IconButton>
                     </Link>
 
                     <Link href={emailLink} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
                         <IconButton color="primary" style={{fontSize: '0.8em'}}>
-                            <EmailIcon/> Email
+                            <EmailIcon style={{color: '#3a3333'}}/> Email
                         </IconButton>
                     </Link>
                 </div>

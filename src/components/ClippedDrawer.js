@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 
 import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 
 import NavBar from "./NavBar";
 import CustomDrawer from "./CustomDrawer";
@@ -21,15 +20,15 @@ export default function ClippedDrawer() {
     const renderPage = () => {
         switch (selectedPage) {
             case 'Publications':
-                return <Publication />;
+                return <Publication/>;
             case 'Talks':
-                return <Talk />;
+                return <Talk/>;
             case 'Research':
-                return <Research />;
+                return <Research/>;
             case 'Teaching':
-                return <Teaching />;
+                return <Teaching/>;
             case 'Home':
-                return <Home />;
+                return <Home/>;
             default:
                 return null;
         }

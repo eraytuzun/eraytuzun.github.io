@@ -1,0 +1,65 @@
+.timeline-container {
+    position: relative;
+    padding-left: 80px; /* Increase padding to make space for the year labels */
+
+}
+
+.timeline-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 60px; /* Position the line to the right of the year labels */
+    width: 2px;
+    background-color: #333; /* Color of the line */
+    z-index: 1;
+
+}
+
+.year-section {
+    display: flex;
+    align-items: start;
+    padding-top: 40px;
+    margin-bottom: 10px; /* Space between year sections */
+}
+
+.year-marker {
+    width: 30px; /* Diameter of the circle */
+    height: 30px; /* Diameter of the circle */
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #333;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 61px; /* Align with the timeline line */
+    transform: translateX(-50%); /* Center the circle on the line */
+    z-index: 2;
+    margin-top: 6px;
+
+}
+
+.year-label {
+    position: absolute;
+    right: calc(100%);
+    bottom: calc(-60%);
+    z-index: 2;
+    margin-right: 10px;
+}
+
+.publications {
+    flex-grow: 1;
+    padding-left: 10px; /* Align with the timeline */
+}
+
+.publication {
+    padding: 10px 0;
+}
+
+.publication-title {
+    font-weight: bold;
+}
+
+/* Style additional details similarly, padding, margin, font-sizes etc. */

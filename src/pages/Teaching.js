@@ -1,10 +1,10 @@
 import React from 'react';
+import TeachingAccordion from "../components/TeachingAccordion";
 
 const Teaching = () => {
     return (
         <div>
-            <h1>Teaching Page</h1>
-            {/* Add your content here */}
+            <TeachingAccordion/>
         </div>
     );
 };

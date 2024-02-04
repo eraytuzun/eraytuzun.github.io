@@ -1,6 +1,5 @@
 import Toolbar from "@mui/material/Toolbar";
 
-import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import * as React from "react";
 import Profile from "./Profile";
