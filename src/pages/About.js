@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const About = () => {
 
     const bilsenLink = "https://bilsen.cs.bilkent.edu.tr"
     const scholarLink = "https://scholar.google.com/citations?user=D4jovncAAAAJ&hl=en"
@@ -54,4 +54,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default About;

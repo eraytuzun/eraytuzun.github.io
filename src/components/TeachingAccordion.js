@@ -11,7 +11,7 @@ export default function TeachingAccordion() {
     return (
         <div>
             {sortedCourses.map((course, index) => (
-                <Accordion key={index}>
+                <Accordion key={index} style={{background:"rgba(58,51,51,0.03)"}}>
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon/>}
                         aria-controls={`panel${index + 1}-content`}

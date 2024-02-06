@@ -6,7 +6,7 @@ const Research = () => {
     return (
         <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap'}}>
             {researches.map((research, index) => (
-                <Card key={index} sx={{mx: 15, my: 1}}>
+                <Card key={index} sx={{mx: 5, my: 1, background:"rgba(58,51,51,0.03)"}}>
                     <CardContent style={{flex: 1}}>
                         <Typography variant="h5" component="div">
                             {research.title}
