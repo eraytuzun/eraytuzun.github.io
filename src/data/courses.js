@@ -20,6 +20,13 @@ const courses = [
         catalog: 'https://catalog.bilkent.edu.tr/current/course/c11319.html',
         url: 'http://www.cs.bilkent.edu.tr/~eraytuzun/teaching/cs319/'
     }
+    {
+        title: 'CS 588 Data Science for Software Engineering',
+        prerequisite: '',
+        description: 'Data science for software engineering basics. Role of data science in various phases of the software development lifecycle. Research fundamentals (how to read/write/review a research paper). Research methods for software engineering. Mining data from online software repositories. Developer and team productivity. Expert recommendation. Survey and project proposal presentations. Application of graph-based metrics and algorithms. Ground truth data in software engineering. Process smells, AI-assisted code generation',
+        catalog: 'https://catalog.bilkent.edu.tr/current/course/c11588.html',
+        url: ''
+    },
 ];
 
 export default courses;
