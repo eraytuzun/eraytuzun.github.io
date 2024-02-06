@@ -19,7 +19,7 @@ const courses = [
         description: 'Principles and stages of object-oriented software development. Overview of object-oriented software modeling with Unified Modeling Language and exposure to CASE tools for object-oriented development. Experience with such tools and environments through programming assignments and/or a term project.',
         catalog: 'https://catalog.bilkent.edu.tr/current/course/c11319.html',
         url: 'http://www.cs.bilkent.edu.tr/~eraytuzun/teaching/cs319/'
-    }
+    },
     {
         title: 'CS 588 Data Science for Software Engineering',
         prerequisite: '',
