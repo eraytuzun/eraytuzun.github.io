@@ -3,6 +3,7 @@ import XIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import SchoolIcon from "@mui/icons-material/School";
 import EmailIcon from "@mui/icons-material/Email";
+import BlurCircularIcon from '@mui/icons-material/BlurCircular';
 
 const socialmedia = [
     {
@@ -24,6 +25,11 @@ const socialmedia = [
         icon: <SchoolIcon style={{color: '#3a3333'}} />,
         text: 'Google Scholar',
         link: 'https://scholar.google.com/citations?user=D4jovncAAAAJ&hl=en',
+    },
+    {
+        icon: <BlurCircularIcon style={{color: '#3a3333'}} />,
+        text: 'BILSEN Lab',
+        link: 'https://bilsen.cs.bilkent.edu.tr',
     },
     {
         icon: <EmailIcon style={{color: '#3a3333'}} />,

@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Profile from "./Profile";
 
 
-const pages = ['About','Publications', 'Talks', 'Research', 'Teaching', 'Contact'];
+const pages = ['About', 'Research', 'Publications', 'Activities', 'Talks', 'Teaching', 'Contact'];
 
 const NavBar = ({onSelectPage}) => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);

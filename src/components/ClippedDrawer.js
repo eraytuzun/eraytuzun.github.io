@@ -12,6 +12,7 @@ import Teaching from "../pages/Teaching";
 import About from "../pages/About";
 import ProfileContent from "./ProfileContent";
 import Contact from "../pages/Contact";
+import Activity from "../pages/Activity";
 
 export default function ClippedDrawer() {
     const [selectedPage, setSelectedPage] = useState('About');
@@ -30,16 +31,18 @@ export default function ClippedDrawer() {
 
     const renderPage = () => {
         switch (selectedPage) {
-            case 'Publications':
-                return <Publication/>;
-            case 'Talks':
-                return <Talk/>;
-            case 'Research':
-                return <Research/>;
-            case 'Teaching':
-                return <Teaching/>;
             case 'About':
                 return <About/>;
+            case 'Research':
+                return <Research/>;
+            case 'Publications':
+                return <Publication/>;
+            case 'Activities':
+                return <Activity/>;
+            case 'Talks':
+                return <Talk/>;
+            case 'Teaching':
+                return <Teaching/>;
             case 'Contact':
                 return <Contact/>;
             default:
@@ -52,7 +55,7 @@ export default function ClippedDrawer() {
             <CssBaseline/>
             <NavBar onSelectPage={(page) => setSelectedPage(page)}/>
             {!isMobile && <CustomDrawer/>}
-            <Box component="main" sx={{display: 'flex', flexDirection: 'column', minHeight: '100vh', p: 3}}>
+            <Box component="main" sx={{display: 'flex', flexDirection: 'column', minHeight: '100vh', p: 3, width:'100%'}}>
                 <Toolbar/>
                 <Box sx={{flexGrow: 1}}>{renderPage()}</Box>
                 {isMobile && <ProfileContent/>}
