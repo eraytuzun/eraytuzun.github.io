@@ -2,72 +2,72 @@ const talks = [
     {
         year: 2024,
         title: 'Process Smells in Software Engineering',
-        event: 'Invited PhD Training Course Lecturer, the University of Oulu',
+        event: 'Invited PhD Training Course Lecturer, University of Oulu',
         date: 'June 11-13, 2024',
-        location: 'University of Oulu'
+        location: 'Oulu, Finland'
     },
     {
         year: 2023,
         title: 'Advancement on Empirical Research Methods',
-        event: 'Panel Member in EMSE 2023',
+        event: 'EMSE 2023',
         date: 'October 27, 2023',
-        location: 'EMSE 2023'
+        location: 'New Orleans, USA'
     },
     {
         year: 2023,
         title: 'Detecting Process Smells A Deep Dive into Improving Efficiency in Software Development Workflow',
-        event: 'LERO Science Foundation Ireland Research Center for Software',
+        event: 'Guest Lecturer, LERO Science Foundation Ireland Research Center for Software',
         date: 'November 29, 2023',
-        location: 'LERO Science Foundation Ireland Research Center for Software'
+        location: 'Online'
     },
     {
         year: 2023,
         title: 'Detecting Process Smells A Deep Dive into Improving Efficiency in Software Development Workflow',
-        event: 'University of Oulu',
+        event: 'Guest Lecturer, University of Oulu',
         date: 'June 12, 2023',
-        location: 'University of Oulu'
+        location: 'Oulu, Finland'
     },
     {
         year: 2023,
         title: 'Detecting Process Smells via Smellyzer',
-        event: 'JetBrains',
+        event: 'Guest Lecturer, JetBrains',
         date: 'May 04, 2023',
-        location: 'JetBrains'
+        location: 'Online'
     },
     {
         year: 2022,
         title: 'Towards a Taxonomy of Code Review Smells',
         event: 'Information and Software Technology Journal – Waste and Value in Software Engineering Live Event',
         date: 'April 05, 2022',
-        location: 'Information and Software Technology Journal – Waste and Value in Software Engineering Live Event'
+        location: 'Online'
     },
     {
         year: 2022,
         title: 'Best Practices in Bug Workflow Management',
         event: 'Arçelik Global',
         date: 'December 01, 2022',
-        location: 'Arçelik Global'
+        location: 'Online'
     },
     {
         year: 2022,
         title: 'Yazılım Mühendisliğinde AI Tabanlı Yaklaşımlar',
         event: 'Tatil Sepeti',
         date: 'October 22, 2022',
-        location: 'Tatil Sepeti'
+        location: 'Online'
     },
     {
         year: 2022,
         title: 'Data Science in Software Engineering',
         event: 'IDEA Teknoloji',
         date: 'June 07, 2022',
-        location: 'IDEA Teknoloji'
+        location: 'Online'
     },
     {
         year: 2022,
         title: 'Data Science in Software Engineering',
         event: 'KuveytTurk',
         date: 'April 28, 2022',
-        location: 'KuveytTurk'
+        location: 'Online'
     },
     {
         year: 2021,
@@ -80,7 +80,7 @@ const talks = [
         year: 2021,
         title: 'Developing Your Most Important Product',
         event: 'Virtual',
-        date: 'February 09, 2021 - October 06, 2021',
+        date: 'February 09, 2021',
         location: 'Virtual'
     },
     {
@@ -184,7 +184,7 @@ const talks = [
         year: 2000,
         title: 'How to boost software development productivity?',
         event: 'Havelsan',
-        date: 'November 27, 2000',
+        date: 'November 27, 2020',
         location: 'Havelsan'
     },
 ];
