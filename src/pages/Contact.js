@@ -1,12 +1,15 @@
-import {Card, CardContent} from "@mui/material";
-import React from "react";
+import { Card, CardContent } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import MapView from "../components/MapView";
 
+const smBreakpoint = 600; // Define your desired breakpoint value for 'sm'
+
 export default function Contact() {
+    const isDesktop = window.innerWidth >= smBreakpoint;
+
     return (
-        <div style={{padding: '0 30px'}}>
-            <div style={{display: "flex", flexDirection: "column",flexWrap: "wrap"}}>
+        <div style={{ padding: '0 30px' }}>
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap" }}>
                 <h3>Contact</h3>
                 <p>
                     If you are interested in joining our group as a graduate (Masters and
@@ -25,15 +28,14 @@ export default function Contact() {
                 </a>{" "}opportunities.
                 </p>
             </div>
-            <div style={{display: "flex", flexDirection: "row", marginTop: "30px", flexWrap: "wrap",}}>
+            <div style={{ display: "flex", flexDirection: "row", marginTop: "30px", flexWrap: "wrap" }}>
                 <Card
                     sx={{
-                        minWidth: 500,
-                        mr:3,
-                        mb: {xs: 5, sm: 0}, // Add margin bottom for small screens
+                        width: isDesktop ? 500 : 350,
+                        mr: 2,
+                        mb: 2, // Add margin bottom for small screens
                         background: "rgba(58,51,51,0.03)",
                     }}
-
                 >
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -49,8 +51,10 @@ export default function Contact() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <Card sx={{minWidth: 500, mb: {xs: 5, sm: 0}}}>
-                    <MapView/>
+                <Card sx={{
+                    width: isDesktop ? 500 : 350,
+                    mb: 2 }}>
+                    <MapView />
                 </Card>
             </div>
         </div>
