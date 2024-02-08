@@ -34,7 +34,7 @@ export default function () {
                         <Grid container columns={{xs: 6, sm: 6, md: 12}} style={{margin: isMobile ? '0' : '5px 0'}}>
 
                             {socialmedia.map((item, index) => (
-                                <Grid item xs={1} sm={1} md={12} key={index}>
+                                <Grid item xs={2} sm={2} md={12} key={index}>
                                     <IconButton color="primary" style={{fontSize: '0.8em', }}>
                                         <a href={item.link} target="_blank" rel="noopener noreferrer"
                                            style={{display:'flex', textDecoration: 'none', textAlign:'center', alignItems:'center'}}>
