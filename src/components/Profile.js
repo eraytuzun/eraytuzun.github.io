@@ -3,7 +3,7 @@ import * as React from "react";
 
 export default function () {
     function onHandleClick() {
-        window.location.href = "/home";
+        window.location.href = "/";
     }
 
     return (

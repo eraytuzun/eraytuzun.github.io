@@ -11,10 +11,9 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Profile from "./Profile";
 
-
 const pages = ['About', 'Research', 'Publications', 'Activities', 'Talks', 'Teaching', 'Contact'];
 
-const NavBar = ({onSelectPage}) => {
+const NavBar = ({ onSelectPage }) => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
     const handleOpenNavMenu = (event) => {
@@ -28,12 +27,13 @@ const NavBar = ({onSelectPage}) => {
     const handlePageClick = (page) => {
         onSelectPage(page);
         handleCloseNavMenu();
+        window.location.hash = `#${page.toLowerCase()}`; // Update URL hash
     };
 
 
     return (
         <React.Fragment>
-            <AppBar position="fixed" sx={{zIndex: (theme) => theme.zIndex.drawer + 1}} style={{background: '#3a3333'}}>
+            <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }} style={{ background: '#3a3333' }}>
                 <Container maxWidth="xl">
                     <Toolbar id="back-to-top-anchor" disableGutters>
                         <Typography
@@ -42,21 +42,21 @@ const NavBar = ({onSelectPage}) => {
                             component="a"
                             sx={{
                                 mr: 15,
-                                display: {xs: 'none', md: 'flex'},
+                                display: { xs: 'none', md: 'flex' },
                                 fontFamily: 'DM Sans',
                                 fontWeight: 800,
                                 letterSpacing: '.1rem',
                                 color: 'inherit',
                                 textDecoration: 'none',
-                                "&:hover": {color: "#dcdbd9", textDecoration: "none", fontWeight: 900},
+                                "&:hover": { color: "#dcdbd9", textDecoration: "none", fontWeight: 900 },
                                 userSelect: 'none',
-                                cursor:"default"
+                                cursor: "default"
                             }}
                         >
                             Eray Tüzün
                         </Typography>
 
-                        <Box sx={{flexGrow: 1, display: {xs: 'flex', md: 'none'}}}>
+                        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                             <IconButton
                                 size="large"
                                 aria-label="account of current user"
@@ -65,7 +65,7 @@ const NavBar = ({onSelectPage}) => {
                                 onClick={handleOpenNavMenu}
                                 color="inherit"
                             >
-                                <MenuIcon/>
+                                <MenuIcon />
                             </IconButton>
                             <Menu
                                 id="menu-appbar"
@@ -82,7 +82,7 @@ const NavBar = ({onSelectPage}) => {
                                 open={Boolean(anchorElNav)}
                                 onClose={handleCloseNavMenu}
                                 sx={{
-                                    display: {xs: 'block', md: 'none'},
+                                    display: { xs: 'block', md: 'none' },
                                 }}
                             >
                                 {pages.map((page) => (
@@ -99,39 +99,37 @@ const NavBar = ({onSelectPage}) => {
                             href="#app-bar-with-responsive-menu"
                             sx={{
                                 mr: 2,
-                                display: {xs: 'flex', md: 'none'},
+                                display: { xs: 'flex', md: 'none' },
                                 flexGrow: 1,
                                 fontFamily: 'DM Sans',
                                 fontWeight: 800,
                                 letterSpacing: '.1rem',
                                 color: 'inherit',
                                 textDecoration: 'none',
-                                "&:hover": {color: "#dcdbd9", textDecoration: "none", fontWeight: 900}
+                                "&:hover": { color: "#dcdbd9", textDecoration: "none", fontWeight: 900 }
                             }}
                         >
                             Eray Tüzün
                         </Typography>
-                        <Box sx={{flexGrow: 1, display: {xs: 'none', md: 'flex'}}}>
+                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                             {pages.map((page) => (
                                 <Button
                                     key={page}
                                     onClick={() => handlePageClick(page)}
-                                    sx={{my: 2, color: 'white', display: 'block'}}
+                                    sx={{ my: 2, color: 'white', display: 'block' }}
                                 >
                                     {page}
                                 </Button>
                             ))}
                         </Box>
-                        <Box sx={{display: { xs: 'flex', md: 'none', }, width:'3em', height:'3em', alignItems:'center', borderRadius:'50%', mt:1, mr:1}}>
-                            <Profile/>
+                        <Box sx={{ display: { xs: 'flex', md: 'none', }, width: '3em', height: '3em', alignItems: 'center', borderRadius: '50%', mt: 1, mr: 1 }}>
+                            <Profile />
                         </Box>
                     </Toolbar>
                 </Container>
             </AppBar>
         </React.Fragment>
-
-    )
-        ;
-}
+    );
+};
 
 export default NavBar;

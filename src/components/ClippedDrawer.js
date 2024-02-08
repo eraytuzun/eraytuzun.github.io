@@ -4,7 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
 import NavBar from "./NavBar";
 import CustomDrawer from "./CustomDrawer";
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import Publication from "../pages/Publication";
 import Talk from "../pages/Talk";
 import Research from "../pages/Research";
@@ -29,36 +29,52 @@ export default function ClippedDrawer() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
+    useEffect(() => {
+        function handleHashChange() {
+            const hash = window.location.hash.substr(1);
+            if (hash && pages.includes(hash.charAt(0).toUpperCase() + hash.slice(1))) {
+                setSelectedPage(hash.charAt(0).toUpperCase() + hash.slice(1));
+            }
+        }
+
+        window.addEventListener('hashchange', handleHashChange);
+        handleHashChange(); // Set initial selected page based on hash
+
+        return () => window.removeEventListener('hashchange', handleHashChange);
+    }, []);
+
+    const pages = ['About', 'Research', 'Publications', 'Activities', 'Talks', 'Teaching', 'Contact'];
+
     const renderPage = () => {
         switch (selectedPage) {
             case 'About':
-                return <About/>;
+                return <About />;
             case 'Research':
-                return <Research/>;
+                return <Research />;
             case 'Publications':
-                return <Publication/>;
+                return <Publication />;
             case 'Activities':
-                return <Activity/>;
+                return <Activity />;
             case 'Talks':
-                return <Talk/>;
+                return <Talk />;
             case 'Teaching':
-                return <Teaching/>;
+                return <Teaching />;
             case 'Contact':
-                return <Contact/>;
+                return <Contact />;
             default:
-                return null;
+                return <About />;
         }
     };
 
     return (
-        <Box sx={{display: 'flex'}}>
-            <CssBaseline/>
-            <NavBar onSelectPage={(page) => setSelectedPage(page)}/>
-            {!isMobile && <CustomDrawer/>}
-            <Box component="main" sx={{display: 'flex', flexDirection: 'column', minHeight: '100vh', p: 3, width:'100%'}}>
-                <Toolbar/>
-                <Box sx={{flexGrow: 1}}>{renderPage()}</Box>
-                {isMobile && <ProfileContent/>}
+        <Box sx={{ display: 'flex' }}>
+            <CssBaseline />
+            <NavBar onSelectPage={(page) => setSelectedPage(page)} />
+            {!isMobile && <CustomDrawer />}
+            <Box component="main" sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', p: 3, width: '100%' }}>
+                <Toolbar />
+                <Box sx={{ flexGrow: 1 }}>{renderPage()}</Box>
+                {isMobile && <ProfileContent />}
             </Box>
         </Box>
     );
