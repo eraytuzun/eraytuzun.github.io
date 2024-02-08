@@ -19,14 +19,14 @@ const publications = [
         year: 2023,
         title: 'Taxonomy of Inline Comments',
         authors: 'Elgun Jabrayilzade, Ayda Yurtoğlu, Eray Tüzün',
-        source: 'Empirical Software Engineering Journal (Accepted)'
+        source: 'Empirical Software Engineering Journal'
     },
     {
         type: 'International Publication',
         year: 2023,
         title: 'An Empirical Analysis of Issue Templates Usage in Large-Scale Projects on GitHub',
         authors: 'Emre Sülün, Metehan Saçakcı, Eray Tüzün',
-        source: 'ACM Transactions on Software Engineering and Methodology (Accepted)'
+        source: 'ACM Transactions on Software Engineering and Methodology'
     },
     {
         type: 'Conference Presentation',
