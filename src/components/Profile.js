@@ -7,7 +7,7 @@ export default function () {
     }
 
     return (
-        <Box onClick={onHandleClick}>
+        <Box onClick={onHandleClick} style={{margin:'20px auto'}}>
             <img
                 src="/images/profilephoto.jpg"
                 alt="Profile"

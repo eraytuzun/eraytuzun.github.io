@@ -1,6 +1,254 @@
 // publications.js
 const publications = [
     {
+        type: 'International Publication',
+        year: 2020,
+        title: 'ToolStackers: A Boardgame for SE Education',
+        authors: 'Barış Ardıç, Eray Tüzün',
+        source: 'Proceedings of SE-Games Workshop 2020, Munich, Germany',
+    },
+    {
+        type: 'International Publication',
+        year: 2024,
+        title: 'An Empirical Analysis of Issue Templates Usage in Large-Scale Projects on GitHub',
+        authors: 'E Sülün, M Saçakçı, E Tüzün',
+        source: 'ACM Transactions on Software Engineering and Methodology'
+    },
+    {
+        type: 'International Publication',
+        year: 2023,
+        title: 'Taxonomy of Inline Comments',
+        authors: 'Elgun Jabrayilzade, Ayda Yurtoğlu, Eray Tüzün',
+        source: 'Empirical Software Engineering Journal (Accepted)'
+    },
+    {
+        type: 'International Publication',
+        year: 2023,
+        title: 'An Empirical Analysis of Issue Templates Usage in Large-Scale Projects on GitHub',
+        authors: 'Emre Sülün, Metehan Saçakcı, Eray Tüzün',
+        source: 'ACM Transactions on Software Engineering and Methodology (Accepted)'
+    },
+    {
+        type: 'Conference Presentation',
+        year: 2023,
+        title: 'Analyzing Bug Life Cycles to Derive Practical Insights',
+        authors: 'Çağrı Eren, Kerem Şahin, Eray Tüzün',
+        event: '27th International Conference on Evaluation and Assessment in Software Engineering',
+        award: 'Best Paper Award'
+    },
+    {
+        type: 'Conference Presentation',
+        year: 2023,
+        title: 'Towards Better Code Reviews: Using Mutation Testing to Improve Reviewer Attention',
+        authors: 'Ziya Mukhtarov, Mannan Abdul, Mokhlaroyim Raupova, Javid Baghirov, Osama Tanveer, Haluk Altunel, Eray Tüzün',
+        event: '17th International Conference on Software and System Processes',
+        award: 'Best Paper Award'
+    },
+    {
+        type: 'Conference Presentation',
+        year: 2023,
+        title: 'Do Developers Fix Continuous Integration Smells?',
+        authors: 'Ayberk Yaşa, Ege Ergül, Hakan Erdoğmuş, Eray Tüzün',
+        event: '19th International Conference on Predictive Models and Data Analytics in Software Engineering'
+    },
+    {
+        type: 'Conference Presentation',
+        year: 2023,
+        title: 'BFSig: Leveraging File Significance in Bus Factor Estimation',
+        authors: 'Vahid Haratian, Mikhail Evtikhiev, Pouria Derakhshanfar, Eray Tüzün, Vladimir Kovalenko',
+        event: '31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering'
+    },
+    {
+        type: 'Conference Presentation',
+        year: 2023,
+        title: 'Bus Factor Explorer',
+        authors: 'Egor Klimov, Muhammad Umair Ahmed, Nikolai Sviridov, Pouria Derakhshanfar, Eray Tüzün, Vladimir Kovalenko',
+        event: '38th IEEE/ACM International Conference on Automated Software Engineering',
+        location: 'Kirchberg, Luxembourg'
+    },
+    {
+        type: 'International Publication',
+        year: 2023,
+        title: 'Evaluating the Code Quality of AI-Assisted Code Generation Tools: An Empirical Study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT',
+        authors: 'Burak Yetistiren, Isik Ozsoy, Miray Ayerdem, Eray Tuzun',
+        source: 'https://arxiv.org/abs/2304.10778'
+    },
+    {
+        type: 'Under Review',
+        year: 2023,
+        title: 'Do Code Reviews Lead to Fewer Code Smells?',
+        authors: 'Erdem Tuna, Carolyn Seaman, Eray Tüzün',
+        journal: 'Journal of Systems and Software'
+    },
+    {
+        type: 'Under Review',
+        year: 2023,
+        title: 'Evaluating the Ground Truth Data Noise in Bug Severity Prediction Models',
+        authors: 'Berk Çakar, Eray Tuzun',
+        event: '31st IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)'
+    },
+    {
+        type: 'Under Review',
+        year: 2023,
+        title: 'Recovering Traceability Links in Practice',
+        authors: 'Ayberk Yaşa, Cemhan Kaan Özaltan, Görkem Ayten, Fatih Kaplama, Ömercan Devran, Baykal Mehmet Uçar, Eray Tuzun',
+        event: '31st IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)'
+    },
+    {
+        type: 'Under Review',
+        year: 2023,
+        title: 'Unmasking LGTM Smells in Code Reviews: A Comparative Study of Comment-Free and Commented Reviews',
+        authors: 'Furak Gön, Burak Yetiştiren, Eray Tuzun',
+        event: '21st International Conference on Mining Software Repositories (MSR)'
+    },
+    {
+        type: 'Under Review',
+        year: 2023,
+        title: 'DevScholar: Usage-Based Approach for Quantifying Developer Contribution',
+        authors: 'Yahya Elnouby, Selen Uysal, Umut Cihan, Hakan Erdogmus, Eray Tuzun',
+        event: '21st International Conference on Mining Software Repositories (MSR)'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'Cleaning Ground Truth Data in Software Task Assignment',
+        authors: 'K. Ayberk Tecimer, Eray Tüzün, Cansu Moran, Hakan Erdogmus',
+        source: 'Information Software and Technology 149'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'Taxonomy of Bug Tracking Process Smells: Perceptions of practitioners and an empirical analysis',
+        authors: 'Khushbakht Ali Qamar, Emre Sulun, Eray Tuzun',
+        source: 'Information and Software Technology'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'Assessing the Quality of GitHub Copilot’s Code Generation',
+        authors: 'Burak Yetistiren, Isik Ozsoy, Eray Tuzun',
+        source: 'Proceedings of the 18th International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE 2022)'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'Analyzing Developer Contributions using Artifact Traceability Graphs',
+        authors: 'H. Alperen Çetin, Eray Tüzün',
+        source: 'Empirical Software Engineering'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'Characterizing Duplicate Bugs: Perceptions of practitioners and an empirical analysis',
+        authors: 'Berfin Küçük, İdil Hanhan, Eray Tüzün',
+        source: 'Journal of Software: Evolution and Process'
+    },
+    {
+        type: 'Under Review',
+        year: 2022,
+        title: 'Evaluating The Impact of a Serious Game Approach For Teaching The Code Review Practice',
+        authors: 'Barış Ardıç, Eray Tüzün',
+        source: 'Journal of Software: Evolution and Process'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'Bug Tracking Process Smells In Practice',
+        authors: 'Erdem Tuna, Vladimir Kovalenko, Eray Tüzün',
+        event: 'International Conference on Software Engineering in Practice'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'Bus Factor In Practice',
+        authors: 'Elgun Jabrayilzade, Mikhail Evtikhiev, Eray Tüzün, Vladimir Kovalenko',
+        event: 'International Conference on Software Engineering in Practice'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'An Interactive Approach to Teaching Git Version Control System',
+        authors: 'Elgun Jabrayilzade, Fatih Sevban Uyanık, Emre Sülün, Eray Tüzün',
+        event: 'CSEE&T / HICSS 2022 Conference on Software Engineering Education and Training'
+    },
+    {
+        type: 'Published',
+        year: 2022,
+        title: 'Teaching Design Patterns Using Interactive Methods',
+        authors: 'Mehmet Ata Yurtsever, Eray Tuzun',
+        event: 'CSEE&T / HICSS 2022 Conference on Software Engineering Education and Training'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'Augmenting Code Review Experience Through Visualization',
+        authors: 'Faruk Balcı, Dilruba Sultan Haliloğlu, Onur Şahin, Cankat Tilki, Mehmet Ata Yurtsever, Eray Tüzün',
+        event: '2021 Working Conference on Software Visualization (VISSOFT)'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'Towards a Taxonomy of Bug Tracking Process Smells: A Quantitative Analysis',
+        authors: 'Khushbakht Ali Qamar, Emre Sülün, Eray Tüzün',
+        event: '2021 47th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'Towards a Taxonomy of Inline Code Comment Smells',
+        authors: 'Elgun Jabrayilzade, Olcaytu Gürkan, Eray Tüzün',
+        event: '2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM)'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'Detection and Elimination of Systematic Labeling Bias in Code Reviewer Recommendation Studies',
+        authors: 'Ayberk Tecimer, Hamdi Dibeklioğlu, Eray Tüzün',
+        event: '25th International Conference on Evaluation and Assessment in Software Engineering 2021'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'A Review of Code Reviewer Recommendation Studies: Challenges and Future Directions',
+        authors: 'Alperen Çetin, Emre Doğan, Eray Tüzün',
+        source: 'Science and Computer Programming'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'Towards a Taxonomy of Code Review Smells: A Quantitative Analysis',
+        authors: 'Emre Doğan, Eray Tüzün',
+        source: 'Information and Software Technology'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'Ground Truth Deficiencies in Software Engineering: When codifying the past is counterproductive',
+        authors: 'Eray Tüzün, Hakan Erdoğmuş, Maria Teresa Baldassare, Michael Felderer, Robert Feldt, Burak Turhan',
+        source: 'IEEE Software'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'What makes Agile Software Development Agile?',
+        authors: 'HELENA Consortium',
+        source: 'IEEE Transactions on Software Engineering'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits',
+        authors: 'Steffen Herbold, Alexander Trautsch, Benjamin Ledel, ... , Eray Tüzün, ...',
+        source: 'Empirical Software Engineering'
+    },
+    {
+        type: 'Published',
+        year: 2021,
+        title: 'RSTrace+: Reviewer Suggestion using Software Artifact Traceability Graphs',
+        authors: 'Emre Sülün, Uğur Doğrusöz, Eray Tüzün',
+        source: 'Information and Software Technology'
+    },
+    {
         type: 'Book Chapter',
         year: 2018,
         title: 'IoT System Development Methods',
@@ -352,6 +600,27 @@ const publications = [
     },
     {
         type: 'National Publication',
+        year: 2020,
+        title: 'Mimari Borç Tanılama için Yöntemler: Bir Sistematik Eşleme Çalışması',
+        authors: 'Yagup Macit, Görkem Giray, Eray Tüzün',
+        source: 'UYMS 2020'
+    },
+    {
+        type: 'National Publication',
+        year: 2018,
+        title: 'GelISlet (DevOps) Icin Ciddi Oyun Eklentisi Deneyimi (Serious Game Plug-in Experience for DevOps)',
+        authors: 'Çağdaş Üsfekes, Yagup Macit, Murat Yılmaz, Eray Tüzün',
+        source: 'UYMS 2018'
+    },
+    {
+        type: 'National Publication',
+        year: 2018,
+        title: 'Artırılmış Gerçeklik Tabanlı Sürekli Işe Alıştıma Sistemi (Augmented Reality Based Continuous Onboarding Framework)',
+        authors: 'İrem Öğe, İpek Ohri, Bora Orkun, Murat Yılmaz, Eray Tüzün',
+        source: 'UYMS 2018'
+    },
+    {
+        type: 'National Publication',
         year: 2017,
         title: 'Sentez Tabanlı Yazılım Mimarisi Tasarım Yaklaşımının Essence Çerçevesiyle Modellenmesi',
         authors: 'G Giray, B Tekinerdogan, E Tüzün',
@@ -433,7 +702,7 @@ const publications = [
         title: 'Yazılım Klonları, Oluşum Nedenleri ve Mücadele Yöntemleri Üzerine Bir İnceleme',
         authors: 'Eray Tüzün, Emre Er, Buyurman Baykal',
         source: '2. Yazılım Kalitesi ve Yazılım Geliştirme Araçları Sempozyumu 2010'
-    }
+    },
 ];
 
 export default publications;

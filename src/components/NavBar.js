@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Profile from "./Profile";
 
 
-const pages = ['About','Publications', 'Talks', 'Research', 'Teaching'];
+const pages = ['About','Publications', 'Talks', 'Research', 'Teaching', 'Contact'];
 
 const NavBar = ({onSelectPage}) => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -48,7 +48,9 @@ const NavBar = ({onSelectPage}) => {
                                 letterSpacing: '.1rem',
                                 color: 'inherit',
                                 textDecoration: 'none',
-                                "&:hover": {color: "#dcdbd9", textDecoration: "none", fontWeight: 900}
+                                "&:hover": {color: "#dcdbd9", textDecoration: "none", fontWeight: 900},
+                                userSelect: 'none',
+                                cursor:"default"
                             }}
                         >
                             Eray Tüzün

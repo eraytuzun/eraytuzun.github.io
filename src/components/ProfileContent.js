@@ -20,10 +20,10 @@ export default function () {
     return (
         <div id="profile-wrapper" style={{ textAlign: 'center', padding: 3, display: 'flex', flexDirection: 'column', height: '100%' }}>
             <div style={{ flex: '1 1 90%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                {!isMobile && <h2 id="name">Eray Tüzün</h2>}
+                {!isMobile && <h2 id="name" style={{paddingBottom:'0', marginBottom:'0'}}>Eray Tüzün</h2>}
                 {isMobile && <hr />}
-                <p style={{ fontSize: '0.8em' }}>Assistant Professor of Computer Engineering at Bilkent University, Head
-                    of BILSEN Research Group</p>
+                <p style={{ fontSize: '0.8em',  }}>Assistant Professor of Computer Engineering at Bilkent University <br/> <br/>
+                    Head of BILSEN Research Group</p>
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div style={{ display: 'flex', textAlign: 'left', flexDirection: isMobile ? 'row' : 'column' }}>
                         {socialmedia.map((item, index) => (
