@@ -9,14 +9,14 @@ const talks = [
     {
         year: 2023,
         title: 'Advancement on Empirical Research Methods',
-        event: 'EMSE 2023',
+        event: '17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement',
         date: 'October 27, 2023',
         location: 'New Orleans, USA'
     },
     {
         year: 2023,
         title: 'Detecting Process Smells A Deep Dive into Improving Efficiency in Software Development Workflow',
-        event: 'Guest Lecturer, LERO Science Foundation Ireland Research Center for Software',
+        event: 'Invited Speaker, LERO Science Foundation Ireland Research Center for Software',
         date: 'November 29, 2023',
         location: 'Online'
     },
@@ -44,58 +44,58 @@ const talks = [
     {
         year: 2022,
         title: 'Best Practices in Bug Workflow Management',
-        event: 'Arçelik Global',
+        event: 'Invited Speaker, Arçelik Global',
         date: 'December 01, 2022',
         location: 'Online'
     },
     {
         year: 2022,
         title: 'Yazılım Mühendisliğinde AI Tabanlı Yaklaşımlar',
-        event: 'Tatil Sepeti',
+        event: 'Invited Speaker, Tatil Sepeti',
         date: 'October 22, 2022',
         location: 'Online'
     },
     {
         year: 2022,
         title: 'Data Science in Software Engineering',
-        event: 'IDEA Teknoloji',
+        event: 'Invited Speaker, IDEA Teknoloji',
         date: 'June 07, 2022',
         location: 'Online'
     },
     {
         year: 2022,
         title: 'Data Science in Software Engineering',
-        event: 'KuveytTurk',
+        event: 'Invited Speaker, KuveytTurk',
         date: 'April 28, 2022',
         location: 'Online'
     },
     {
         year: 2021,
         title: 'Code Reviewer Recommendation using Artifact Traceability Graphs',
-        event: 'METU Multimedia Informatics Department',
+        event: 'Invited Speaker, METU Multimedia Informatics Department',
         date: 'April 14, 2021',
         location: 'METU Multimedia Informatics Department'
     },
     {
         year: 2021,
         title: 'Developing Your Most Important Product',
-        event: 'Virtual',
+        event: 'Bilkent University CV Workshop',
         date: 'February 09, 2021',
-        location: 'Virtual'
+        location: 'Online'
     },
     {
         year: 2020,
         title: 'Software Development Productivity',
-        event: 'ATA Teknoloji Platformları (ATP)',
+        event: 'Invited Speaker, ATA Teknoloji Platformları (ATP)',
         date: 'August 09, 2020',
-        location: 'ATA Teknoloji Platformları (ATP)'
+        location: 'Online'
     },
     {
         year: 2020,
         title: 'How to develop software?',
         event: 'Bilkent Youth Academy (Gençlik Akademisi)',
         date: 'July 13-23, 2020',
-        location: 'Bilkent Youth Academy (Gençlik Akademisi)'
+        location: 'Online)'
     },
     {
         year: 2019,
