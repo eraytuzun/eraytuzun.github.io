@@ -135,7 +135,8 @@ const talks = [
     {
         year: 2018,
         title: '13 ways to increase Software Development Productivity',
-        event: 'ASELSAN, Turkey',
+        event: 'Guest Speaker, ASELSAN',
+        location: 'Ankara, Turkey',
         date: 'March 23, 2018'
     },
     {
@@ -162,7 +163,7 @@ const talks = [
     {
         year: 2015,
         title: 'Adopting Application Lifecycle Management Principles',
-        event: 'Çankaya University',
+        event: 'Invited Speaker, Çankaya University',
         location: 'Ankara, Turkey',
         date: 'Oct 6, 2015'
     },
@@ -183,9 +184,9 @@ const talks = [
     {
         year: 2000,
         title: 'How to boost software development productivity?',
-        event: 'Havelsan',
+        event: 'Invited Speaker, Havelsan',
         date: 'November 27, 2020',
-        location: 'Havelsan'
+        location: 'Ankara, Turkey'
     },
 ];
 
