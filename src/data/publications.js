@@ -9,13 +9,6 @@ const publications = [
     },
     {
         type: 'International Journal',
-        year: 2024,
-        title: 'An Empirical Analysis of Issue Templates Usage in Large-Scale Projects on GitHub',
-        authors: 'E Sülün, M Saçakçı, E Tüzün',
-        venue: 'ACM Transactions on Software Engineering and Methodology'
-    },
-    {
-        type: 'International Journal',
         year: 2023,
         title: 'Taxonomy of Inline Comments',
         authors: 'Elgun Jabrayilzade, Ayda Yurtoğlu, Eray Tüzün',
@@ -23,7 +16,7 @@ const publications = [
     },
     {
         type: 'International Journal',
-        year: 2023,
+        year: 2024,
         title: 'An Empirical Analysis of Issue Templates Usage in Large-Scale Projects on GitHub',
         authors: 'Emre Sülün, Metehan Saçakcı, Eray Tüzün',
         venue: 'ACM Transactions on Software Engineering and Methodology'
@@ -33,16 +26,14 @@ const publications = [
         year: 2023,
         title: 'Analyzing Bug Life Cycles to Derive Practical Insights',
         authors: 'Çağrı Eren, Kerem Şahin, Eray Tüzün',
-        venue: '27th International Conference on Evaluation and Assessment in Software Engineering',
-        award: 'Best Paper Award'
+        venue: '27th International Conference on Evaluation and Assessment in Software Engineering - Best Paper Award',
     },
     {
         type: 'International Conference',
         year: 2023,
         title: 'Towards Better Code Reviews: Using Mutation Testing to Improve Reviewer Attention',
         authors: 'Ziya Mukhtarov, Mannan Abdul, Mokhlaroyim Raupova, Javid Baghirov, Osama Tanveer, Haluk Altunel, Eray Tüzün',
-        venue: '17th International Conference on Software and System Processes',
-        award: 'Best Paper Award'
+        venue: '17th International Conference on Software and System Processes - Best Paper Award',
     },
     {
         type: 'International Conference',
@@ -78,136 +69,136 @@ const publications = [
         year: 2024,
         title: 'Do Code Reviews Lead to Fewer Code Smells?',
         authors: 'Erdem Tuna, Carolyn Seaman, Eray Tüzün',
-        journal: 'Journal of Systems and Software (Under Review)’
+        venue: 'Journal of Systems and Software (Under Review)'
     },
     {
-        type: 'International Journal'',
+        type: 'International Journal',
         year: 2022,
         title: 'Cleaning Ground Truth Data in Software Task Assignment',
         authors: 'K. Ayberk Tecimer, Eray Tüzün, Cansu Moran, Hakan Erdogmus',
         venue: 'Information Software and Technology'
     },
     {
-        type: 'International Journal'',
+        type: 'International Journal',
         year: 2022,
         title: 'Taxonomy of Bug Tracking Process Smells: Perceptions of practitioners and an empirical analysis',
         authors: 'Khushbakht Ali Qamar, Emre Sulun, Eray Tuzun',
         venue: 'Information and Software Technology'
     },
     {
-        type: ‘International ‘Conference,
+        type: 'International Conference',
         year: 2022,
         title: 'Assessing the Quality of GitHub Copilot’s Code Generation',
         authors: 'Burak Yetistiren, Isik Ozsoy, Eray Tuzun',
-        venue: 'Proceedings of the 18th International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE 2022)'
+        venue: 'Proceedings of the 18th International Conference on Predictive Models and Data Analytics in Software Engineering'
     },
     {
-        type: 'International Journal'',
+        type: 'International Journal',
         year: 2022,
         title: 'Analyzing Developer Contributions using Artifact Traceability Graphs',
         authors: 'H. Alperen Çetin, Eray Tüzün',
         venue: 'Empirical Software Engineering'
     },
     {
-        type: ‘International Journal’,
+        type: 'International Journal',
         year: 2022,
         title: 'Characterizing Duplicate Bugs: Perceptions of practitioners and an empirical analysis',
         authors: 'Berfin Küçük, İdil Hanhan, Eray Tüzün',
-        venue: 'Journal of Software: Evolution and Process (Under Review)’
+        venue: 'Journal of Software: Evolution and Process (Under Review)'
     },
     {
-        type: ‘International Journal’,
-        year: 2022,
+        type: 'International Journal',
+        year: 2023,
         title: 'Evaluating The Impact of a Serious Game Approach For Teaching The Code Review Practice',
         authors: 'Barış Ardıç, Eray Tüzün',
-        venue: 'Journal of Software: Evolution and Process'
+        venue: 'Journal of Software: Evolution and Process (Under Review)'
     },
     {
-        type: ‘International Conference',
+        type: 'International Conference',
         year: 2022,
         title: 'Bug Tracking Process Smells In Practice',
         authors: 'Erdem Tuna, Vladimir Kovalenko, Eray Tüzün',
         venue: 'International Conference on Software Engineering in Practice'
     },
     {
-        type: ‘International Conference',
+        type: 'International Conference',
         year: 2022,
         title: 'Bus Factor In Practice',
         authors: 'Elgun Jabrayilzade, Mikhail Evtikhiev, Eray Tüzün, Vladimir Kovalenko',
         venue: 'International Conference on Software Engineering in Practice'
     },
     {
-        type: ‘International Conference',
+        type: 'International Conference',
         year: 2022,
         title: 'An Interactive Approach to Teaching Git Version Control System',
         authors: 'Elgun Jabrayilzade, Fatih Sevban Uyanık, Emre Sülün, Eray Tüzün',
         venue: 'CSEE&T / HICSS 2022 Conference on Software Engineering Education and Training'
     },
     {
-        type: ‘International Conference’,
+        type:'International Conference',
         year: 2022,
         title: 'Teaching Design Patterns Using Interactive Methods',
         authors: 'Mehmet Ata Yurtsever, Eray Tuzun',
         venue: 'CSEE&T / HICSS 2022 Conference on Software Engineering Education and Training'
     },
     {
-        type: ‘International Conference',
+        type: 'International Conference',
         year: 2021,
         title: 'Augmenting Code Review Experience Through Visualization',
         authors: 'Faruk Balcı, Dilruba Sultan Haliloğlu, Onur Şahin, Cankat Tilki, Mehmet Ata Yurtsever, Eray Tüzün',
         venue: '2021 Working Conference on Software Visualization (VISSOFT)'
     },
     {
-        type: ‘International Conference',
+        type: 'International Conference',
         year: 2021,
         title: 'Towards a Taxonomy of Bug Tracking Process Smells: A Quantitative Analysis',
         authors: 'Khushbakht Ali Qamar, Emre Sülün, Eray Tüzün',
         venue: '2021 47th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)'
     },
     {
-        type: ‘International Conference’,
+        type: 'International Conference',
         year: 2021,
         title: 'Towards a Taxonomy of Inline Code Comment Smells',
         authors: 'Elgun Jabrayilzade, Olcaytu Gürkan, Eray Tüzün',
         venue: '2021 IEEE 21st International Working Conference on venue Code Analysis and Manipulation (SCAM)'
     },
     {
-        type: ‘International Conference',
+        type: 'International Conference',
         year: 2021,
         title: 'Detection and Elimination of Systematic Labeling Bias in Code Reviewer Recommendation Studies',
         authors: 'Ayberk Tecimer, Hamdi Dibeklioğlu, Eray Tüzün',
         venue: '25th International Conference on Evaluation and Assessment in Software Engineering 2021'
     },
     {
-        type: ‘International Journal’,
+        type: 'International Journal',
         year: 2021,
         title: 'A Review of Code Reviewer Recommendation Studies: Challenges and Future Directions',
         authors: 'Alperen Çetin, Emre Doğan, Eray Tüzün',
         venue: 'Science and Computer Programming'
     },
     {
-        type: ‘International Journal,
+        type: 'International Journal',
         year: 2021,
         title: 'Towards a Taxonomy of Code Review Smells: A Quantitative Analysis',
         authors: 'Emre Doğan, Eray Tüzün',
         venue: 'Information and Software Technology'
     },
     {
-        type: ‘International Journal’,
+        type: 'International Journal',
         year: 2021,
         title: 'Ground Truth Deficiencies in Software Engineering: When codifying the past is counterproductive',
         authors: 'Eray Tüzün, Hakan Erdoğmuş, Maria Teresa Baldassare, Michael Felderer, Robert Feldt, Burak Turhan',
         venue: 'IEEE Software'
     },
     {
-        type: ‘International Journal’,
+        type: 'International Journal',
         year: 2021,
         title: 'What makes Agile Software Development Agile?',
         authors: 'HELENA Consortium',
         venue: 'IEEE Transactions on Software Engineering'
     },
     {
-        type: ‘International Journal’,
+        type: 'International Journal',
         year: 2021,
         title: 'A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits',
         authors: 'Steffen Herbold, Alexander Trautsch, Benjamin Ledel, ... , Eray Tüzün, ...',
@@ -260,14 +251,14 @@ const publications = [
         year: 2020,
         title: 'RSTrace+: Reviewer Suggestion using Software Artifact Traceability Graphs',
         authors: 'Emre Sülün, Eray Tüzün',
-        venue: 'Information and Software Technology (Accepted)'
+        venue: 'Information and Software Technology'
     },
     {
-        type: 'International Journal',
+        type: 'International Conference',
         year: 2020,
         title: 'Identifying Key Developers using Artifact Traceability Graphs',
         authors: 'Alperen Cetin, Eray Tüzün',
-        venue: 'PROMISE Software'
+        venue: 'The 16th International Conference on Predictive Models and Data Analytics in Software Engineering'
     },
     {
         type: 'International Journal',
@@ -277,14 +268,14 @@ const publications = [
         venue: 'IEEE Software '
     },
     {
-        type: 'International Conference’,
+        type: 'International Conference',
         year: 2019,
         title: 'Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies',
         authors: 'Emre Dogan, Eray Tuzun, Ayberk Tecimer, H. Altay Guvenir',
-        venue: 'Empirical Software Engineering and Measurement (ESEM) – Best paper award'
+        venue: 'Empirical Software Engineering and Measurement (ESEM) - Best paper award'
     },
     {
-        type: 'International Conference’,
+        type: 'International Conference',
         year: 2019,
         title: 'Applying Blockchain to Improve the Integrity of the Software Development Process',
         authors: 'M Yilmaz, S Tasel, E Tuzun, U Gulec, RV O\'Connor, Paul Clarke',
@@ -305,11 +296,11 @@ const publications = [
         venue: 'IEEE Software'
     },
     {
-        type: 'International Conference’,
+        type: 'International Conference',
         year: 2019,
         title: 'Reviewer Recommendation Using Software Artifact Traceability Graphs',
         authors: 'Emre Sülün, Eray Tüzün, Uğur Doğrusöz',
-        venue: 'PROMISE'
+        venue: 'The 15th International Conference on Predictive Models and Data Analytics in Software Engineering'
     },
     {
         type: 'International Conferencel',
