@@ -42,7 +42,7 @@ const Publication = () => {
                                             {entry.title}
                                         </div>
                                         <p style={{margin: '0px'}}>Authors: {entry.authors} </p>
-                                        <p style={{margin: '0px'}}>Source: {entry.source}</p>
+                                        <p style={{margin: '0px'}}>Venue: {entry.venue}</p>
 
                                     </div>
                                 </div>
