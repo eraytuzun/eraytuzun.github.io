@@ -31,7 +31,7 @@ const About = () => {
                 Owner) certifications.
                 His research interests include software analytics, application lifecycle management, and,
                 empirical software
-                engineering. Currently he is the representative of the Bilkent University in the <a href={ISERNLink} target="_blank"> International Software Engineering Research Network (ISERN) </a>
+                engineering. Currently he is the representative of the Bilkent University in the <a href={ISERNLink} target="_blank"> International Software Engineering Research Network (ISERN). </a>
             </p>
             <p>
                 Please visit my <a href={scholarLink} target="_blank"> Google Scholar</a> page for my research. Eray
