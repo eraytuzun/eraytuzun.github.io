@@ -4,6 +4,7 @@ const About = () => {
 
     const bilsenLink = "https://bilsen.cs.bilkent.edu.tr"
     const scholarLink = "https://scholar.google.com/citations?hl=en&user=D4jovncAAAAJ&view_op=list_works&sortby=pubdate"
+    const ISERNLink = "https://isern.iese.de/isern-members-2/"
     //const graduate = "https://w3.cs.bilkent.edu.tr/graduate-programs/"
     //const working = "http://www.cs.bilkent.edu.tr/~guvenir/courses/CS490/index.html"
 
@@ -30,7 +31,7 @@ const About = () => {
                 Owner) certifications.
                 His research interests include software analytics, application lifecycle management, and,
                 empirical software
-                engineering.
+                engineering. Currently he is the representative of the Bilkent University in the <a href={ISERNLink} target="_blank"> International Software Engineering Research Network (ISERN) </a>
             </p>
             <p>
                 Please visit my <a href={scholarLink} target="_blank"> Google Scholar</a> page for my research. Eray
