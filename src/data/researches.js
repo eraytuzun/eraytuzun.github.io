@@ -84,7 +84,7 @@ const researches = [
             {
                 authors: 'K. Ayberk Tecimer, Eray Tüzün, Cansu Moran, and Hakan Erdogmus',
                 title: 'Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies',
-                venue: 'Empirical Software Engineering and Measurement (ESEM) 2019 – Best Paper award,
+                venue: 'Empirical Software Engineering and Measurement (ESEM) 2019 – Best Paper award',
                 date: 'September 2019'
             },
         ],
