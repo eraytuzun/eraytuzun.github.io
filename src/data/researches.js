@@ -18,7 +18,7 @@ const researches = [
             {
                 authors: 'Ziya Mukhtarov, Mannan Abdul, Mokhlaroyim Raupova, Javid Baghirov, Osama Tanveer, Haluk Altunel and Eray Tüzün',
                 title: 'Towards Better Code Reviews: Using Mutation Testing to Improve Reviewer Attention',
-                venue: '17th International Conference on Software and System Processes - <b> Best Paper Award <b/>',
+                venue: '17th International Conference on Software and System Processes - Best Paper Award',
                 date: 'Jan 2024'
             },
             {
