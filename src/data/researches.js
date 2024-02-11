@@ -1,19 +1,31 @@
 const researches = [
     {
         title: 'Enhancing Software Processes through Data Science',
-        description: 'In this research domain, we explore the intersection of data science and software engineering to significantly enhance software development processes. By applying advanced data analytics, machine learning, and big data technologies, we aim to uncover insights that lead to more efficient, effective, and reliable software development practices. Through these studies, we demonstrate how data-driven approaches can optimize decision-making, improve software quality, and increase the productivity of development teams by providing actionable insights derived from vast amounts of software project data.',
+        description: 'We explore the intersection of data science and software engineering to significantly enhance software development processes. By applying advanced data analytics, machine learning, and big data technologies, we aim to uncover insights that lead to more efficient, effective, and reliable software development practices. Through these studies, we demonstrate how data-driven approaches can optimize decision-making, improve software quality, and increase the productivity of development teams by providing actionable insights derived from vast amounts of software project data.',
         selectedPublications: [
             {
-                authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
-                title: 'Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive',
-                venue: 'IEEE Software, vol. 39, no. 3, pp. 85-95',
-                date: 'May-June 2022'
+                authors: 'Emre Sülün, Metehan Saçakcı, and Eray Tüzün',
+                title: 'An Empirical Analysis of Issue Templates Usage in Large-Scale Projects on GitHub',
+                venue: 'ACM Transactions on Software Engineering and Methodology',
+                date: 'Jan 2024'
             },
             {
-                authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
-                title: 'Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive',
-                venue: 'IEEE Software, vol. 39, no. 3, pp. 85-95',
-                date: 'May-June 2022'
+                authors: 'Çağrı Eren, Kerem Şahin, and Eray Tüzün',
+                title: 'Analyzing Bug Life Cycles to Derive Practical Insights',
+                venue: '27th  International Conference on Evaluation and Assessment in Software Engineering - Best Paper Award',
+                date: 'June 2022'
+            },
+            {
+                authors: 'Ziya Mukhtarov, Mannan Abdul, Mokhlaroyim Raupova, Javid Baghirov, Osama Tanveer, Haluk Altunel and Eray Tüzün',
+                title: 'Towards Better Code Reviews: Using Mutation Testing to Improve Reviewer Attention',
+                venue: '17th International Conference on Software and System Processes - <b> Best Paper Award <b/>',
+                date: 'Jan 2024'
+            },
+            {
+                authors: 'Çağrı Eren, Kerem Şahin, and Eray Tüzün',
+                title: 'Analyzing Bug Life Cycles to Derive Practical Insights',
+                venue: '27th  International Conference on Evaluation and Assessment in Software Engineering - Best Paper Award',
+                date: 'June 2022'
             },
         ]
     },
@@ -28,10 +40,28 @@ const researches = [
                 date: 'May-June 2022'
             },
             {
-                authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
-                title: 'Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive',
-                venue: 'IEEE Software, vol. 39, no. 3, pp. 85-95',
-                date: 'May-June 2022'
+                authors: 'Elgun Jabrayilzade, Ayda Yurtoğlu, and Eray Tüzün',
+                title: 'Taxonomy of Inline Comments',
+                venue: 'Empirical Software Engineering',
+                date: 'December 2023'
+            },
+            {
+                authors: 'Khushbakht Ali Qamar, Emre Sulun, Eray Tuzun',
+                title: 'Taxonomy of Bug Tracking Process Smells Perceptions of practitioners and an empirical analysis',
+                venue: 'Information and Software Technology',
+                date: 'May 2022'
+            },
+            {
+                authors: 'Erdem Tuna, Vladimir Kovalenko, Eray Tüzün',
+                title: 'Bug Tracking Process Smells in Practice',
+                venue: 'International Conference on Software Engineering 2022, in Practice',
+                date: 'May 2022'
+            },
+            {
+                authors: 'Emre Dogan and Eray Tüzün',
+                title: 'Towards a Taxonomy of Code Review Smells: A Quantitative Analysis',
+                venue: 'Information and Software Technology',
+                date: '2021'
             },
         ],
     },
@@ -40,16 +70,22 @@ const researches = [
         description: 'This area of research scrutinizes the foundation upon which software engineering research is often built—the ground truth data used in empirical studies, particularly in code reviewer recommendations and bug-tracking systems. We challenge the accuracy and reliability of these foundational datasets, highlighting the potential for biases and inaccuracies that can significantly impact the outcomes of research studies. By investigating the validity of ground truth in software engineering and applying blockchain technology to improve process integrity, our work calls for a critical examination of empirical data sources. We aim to establish methodologies that ensure the robustness and reliability of ground truth data, thereby enhancing the credibility and generalizability of research findings in software engineering.',
         selectedPublications: [
             {
-                authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
+                authors: 'Eray Tüzün, Hakan Erdogmus, M. Teresa Baldassarre, Michael Felderer, Robert Feldt and Burak Turhan',
                 title: 'Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive',
-                venue: 'IEEE Software, vol. 39, no. 3, pp. 85-95',
+                venue: 'IEEE Software',
                 date: 'May-June 2022'
             },
             {
-                authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
-                title: 'Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive',
-                venue: 'IEEE Software, vol. 39, no. 3, pp. 85-95',
-                date: 'May-June 2022'
+                authors: 'K. Ayberk Tecimer, Eray Tüzün, Cansu Moran, and Hakan Erdogmus',
+                title: 'Cleaning Ground Truth Data in Software Task Assignment',
+                venue: 'Information Software and Technology',
+                date: 'September 2022'
+            },
+            {
+                authors: 'K. Ayberk Tecimer, Eray Tüzün, Cansu Moran, and Hakan Erdogmus',
+                title: 'Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies',
+                venue: 'Empirical Software Engineering and Measurement (ESEM) 2019 – Best Paper award,
+                date: 'September 2019'
             },
         ],
     },
@@ -59,15 +95,33 @@ const researches = [
         selectedPublications: [
             {
                 authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
-                title: 'Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive',
-                venue: 'IEEE Software, vol. 39, no. 3, pp. 85-95',
-                date: 'May-June 2022'
+                title: 'BFSig: Leveraging File Significance in Bus Factor Estimation',
+                venue: '31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering',
+                date: 'Dec 2023'
             },
             {
-                authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
-                title: 'Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive',
-                venue: 'IEEE Software, vol. 39, no. 3, pp. 85-95',
-                date: 'May-June 2022'
+                authors: 'Egor Klimov, Muhammad Umair Ahmed, Nikolai Sviridov, Pouria Derakhshanfar, Eray Tüzün, Vladimir Kovalenko',
+                title: 'Bus Factor Explorer',
+                venue: '38th IEEE/ACM International Conference on Automated Software Engineering',
+                date: 'September 2023'
+            },
+            {
+                authors: 'Elgun Jabrayilzade, Mikhail Evtikhiev, Eray Tüzün, Vladimir Kovalenko',
+                title: 'Bus Factor in Practice',
+                venue: 'International Conference on Software Engineering, Practice Track',
+                date: 'May 2022'
+            },
+            {
+                authors: 'H. Alperen Çetin, Eray Tüzün',
+                title: 'Analyzing Developer Contributions using Artifact Traceability Graphs',
+                venue: 'Empirical Software Engineering',
+                date: 'March 2022'
+            },
+            {
+                authors: 'Emre Sülün, Uğur Doğrusöz, Eray Tüzün',
+                title: 'RSTrace+: Reviewer Suggestion using Software Artifact Traceability Graphs',
+                venue: 'International Conference on Software Engineering, Practice Track',
+                date: 'May 2022'
             },
         ],
     },
