@@ -182,7 +182,7 @@ const talks = [
         location: 'Adana, Turkey'
     },
     {
-        year: 2000,
+        year: 2020,
         title: 'How to boost software development productivity?',
         event: 'Invited Speaker, Havelsan',
         date: 'November 27, 2020',

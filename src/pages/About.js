@@ -3,9 +3,9 @@ import React from 'react';
 const About = () => {
 
     const bilsenLink = "https://bilsen.cs.bilkent.edu.tr"
-    const scholarLink = "https://scholar.google.com/citations?user=D4jovncAAAAJ&hl=en"
-    const graduate = "https://w3.cs.bilkent.edu.tr/graduate-programs/"
-    const working = "http://www.cs.bilkent.edu.tr/~guvenir/courses/CS490/index.html"
+    const scholarLink = "https://scholar.google.com/citations?hl=en&user=D4jovncAAAAJ&view_op=list_works&sortby=pubdate"
+    //const graduate = "https://w3.cs.bilkent.edu.tr/graduate-programs/"
+    //const working = "http://www.cs.bilkent.edu.tr/~guvenir/courses/CS490/index.html"
 
     return (
         <div style={{
