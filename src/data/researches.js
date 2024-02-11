@@ -2,7 +2,7 @@ const researches = [
     {
         title: 'Enhancing Software Processes through Data Science',
         description: 'In this research domain, we explore the intersection of data science and software engineering to significantly enhance software development processes. By applying advanced data analytics, machine learning, and big data technologies, we aim to uncover insights that lead to more efficient, effective, and reliable software development practices. Through these studies, we demonstrate how data-driven approaches can optimize decision-making, improve software quality, and increase the productivity of development teams by providing actionable insights derived from vast amounts of software project data.',
-        selectedPublications: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan, "Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive," in IEEE Software, vol. 39, no. 3, pp. 85-95, May-June 2022 <br/>   ee <br/> eee' ,
+        selectedPublications: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan, "Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive," in IEEE Software, vol. 39, no. 3, pp. 85-95, May-June 2022 </br>   <i>ee</i> <br/> eee' ,
     },
     {
         title: 'Assessment and Improvement of Process Smells in Software Development',
