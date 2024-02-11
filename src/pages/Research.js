@@ -20,7 +20,11 @@ const Research = () => {
                     <CardContent>
                         <Typography variant="body2" color="text.secondary">
                             Selected Publications:
-                            {research.selectedPublications}
+                            <ul>
+                                {research.selectedPublications.map((p) => (
+                                    <li>{p.authors}, <cite>"{p.title},"</cite> {p.venue}, {p.date}.</li>
+                                ))}
+                            </ul>
                         </Typography>
                     </CardContent>
                 </Card>

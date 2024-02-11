@@ -15,10 +15,10 @@ const About = () => {
             <p>
                 Eray Tüzün is currently a faculty member and leading the <a href={bilsenLink} target="_blank">Bilkent
                 University Software Engineering and Data Analytics Research Group (BILSEN)</a> in the Department of
-                Computer Engineering at Bilkent University. He has over 15 years of experience designing
+                Computer Engineering at Bilkent University. He has over 20 years of experience designing
                 and building software. Prior to joining Bilkent University, he worked 9 years in HAVELSAN in various
                 positions
-                (Productization Lead, Academy Manager, Product Owner, and Software Engineer).
+                (Productization Lead, Scrum Master, Product Owner, and Software Engineer).
             </p>
             <p>
                 He has previously worked as a
@@ -28,9 +28,9 @@ const About = () => {
                 He has CPM (Certified Product Manager, MCSD:
                 Application Lifecycle Manager, PSM (Professional Scrum Master) and PSPO (Professional Scrum Product
                 Owner) certifications.
-                His research interests include software analytics, application lifecycle management, gamification,
+                His research interests include software analytics, application lifecycle management, and,
                 empirical software
-                engineering, and software engineering education.
+                engineering.
             </p>
             <p>
                 Please visit my <a href={scholarLink} target="_blank"> Google Scholar</a> page for my research. Eray
