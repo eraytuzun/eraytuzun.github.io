@@ -24,7 +24,7 @@ const socialmedia = [
     {
         icon: <SchoolIcon style={{color: '#3a3333'}} />,
         text: 'Google Scholar',
-        link: 'https://scholar.google.com/citations?user=D4jovncAAAAJ&hl=en',
+        link: 'https://scholar.google.com/citations?hl=en&user=D4jovncAAAAJ&view_op=list_works&sortby=pubdate',
     },
     {
         icon: <BlurCircularIcon style={{color: '#3a3333'}} />,
