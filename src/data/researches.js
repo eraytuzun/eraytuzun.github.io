@@ -21,24 +21,12 @@ const researches = [
                 venue: '17th International Conference on Software and System Processes - Best Paper Award',
                 date: 'Jan 2024'
             },
-            {
-                authors: 'Çağrı Eren, Kerem Şahin, and Eray Tüzün',
-                title: 'Analyzing Bug Life Cycles to Derive Practical Insights',
-                venue: '27th  International Conference on Evaluation and Assessment in Software Engineering - Best Paper Award',
-                date: 'June 2022'
-            },
         ]
     },
     {
         title: 'Assessment and Improvement of Process Smells in Software Development',
         description: 'Our research in this area focuses on identifying, classifying, and mitigating process smells within software development environments. Process smells, akin to code smells, are indicators of potential inefficiencies or problems in software development workflows that, if addressed, can significantly enhance the quality and speed of software production. Through empirical analysis and the development of taxonomies for inline comments and bug-tracking process smells, we provide practitioners with a deeper understanding of these inefficiencies. Our goal is to offer actionable strategies for software teams to improve their development processes, thereby leading to more effective project management and enhanced software quality.',
         selectedPublications: [
-            {
-                authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
-                title: 'Ground-Truth Deficiencies in Software Engineering: When Codifying the Past Can Be Counterproductive',
-                venue: 'IEEE Software, vol. 39, no. 3, pp. 85-95',
-                date: 'May-June 2022'
-            },
             {
                 authors: 'Elgun Jabrayilzade, Ayda Yurtoğlu, and Eray Tüzün',
                 title: 'Taxonomy of Inline Comments',
@@ -82,7 +70,7 @@ const researches = [
                 date: 'September 2022'
             },
             {
-                authors: 'K. Ayberk Tecimer, Eray Tüzün, Cansu Moran, and Hakan Erdogmus',
+                authors: 'Emre Dogan, Eray Tuzun, Ayberk Tecimer, H. Altay Guvenir,',
                 title: 'Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies',
                 venue: 'Empirical Software Engineering and Measurement (ESEM) 2019 – Best Paper award',
                 date: 'September 2019'
@@ -94,7 +82,7 @@ const researches = [
         description: 'In this research stream, we delve into the utilization of artifact traceability graphs as a means to improve various aspects of software engineering practices, from reviewer recommendations to the identification of key developers. Artifact traceability, the ability to link and follow the life of software artifacts across the development lifecycle, presents a rich opportunity to enhance collaboration, quality assurance, and project management. Our studies demonstrate how traceability graphs can be employed to provide insights into developer contributions, facilitate more effective code reviews, and support the management of development processes. By advancing the methods and tools for leveraging artifact traceability, we contribute to the development of more coherent, efficient, and manageable software engineering projects.',
         selectedPublications: [
             {
-                authors: 'E. Tüzün, H. Erdogmus, M. T. Baldassarre, M. Felderer, R. Feldt and B. Turhan',
+                authors: 'Vahid Haratian, Mikhail Evtikhiev, Pouria Derakhshanfar, Eray Tüzün, Vladimir Kovalenko',
                 title: 'BFSig: Leveraging File Significance in Bus Factor Estimation',
                 venue: '31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering',
                 date: 'Dec 2023'
