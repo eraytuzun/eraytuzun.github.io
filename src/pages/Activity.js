@@ -3,6 +3,7 @@ import InternationalConference from "../components/datagrids/InternationalConfer
 import Journal from "../components/datagrids/Journal";
 import MembershipsDataGrid from "../components/datagrids/Membership";
 import Award from "../components/datagrids/Award";
+import Grant from "../components/datagrids/Grant";
 
 
 
@@ -24,6 +25,8 @@ export default function Activity() {
             <MembershipsDataGrid/>
             <br/>
             <Award/>
+            <br/>
+            <Grant/>
             <br/>
         </div>
     );
