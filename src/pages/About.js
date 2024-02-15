@@ -16,7 +16,7 @@ const About = () => {
             <p>
                 Eray Tüzün is currently a faculty member and leading the <a href={bilsenLink} target="_blank">Bilkent
                 University Software Engineering and Data Analytics Research Group (BILSEN)</a> in the Department of
-                Computer Engineering at Bilkent University. He has over 20 years of experience designing
+                Computer Engineering at Bilkent University. He received his bachelor’s and master’s degrees in Computer Science and holds a PhD in Information Systems. He has over 20 years of experience designing
                 and building software. Prior to joining Bilkent University, he worked 9 years in HAVELSAN in various
                 positions
                 (Productization Lead, Scrum Master, Product Owner, and Software Engineer).
@@ -29,14 +29,17 @@ const About = () => {
                 He has CPM (Certified Product Manager, MCSD:
                 Application Lifecycle Manager, PSM (Professional Scrum Master) and PSPO (Professional Scrum Product
                 Owner) certifications.
-                His research interests include software analytics, application lifecycle management, and,
+                His research interests include software analytics, mining software repositories, and,
                 empirical software
-                engineering. Currently he is the representative of the Bilkent University in the <a href={ISERNLink} target="_blank"> International Software Engineering Research Network (ISERN). </a>
+                engineering. He is the representative of the Bilkent University in the <a href={ISERNLink} target="_blank"> International Software Engineering Research Network (ISERN). He is a senior member of the IEEE, and a member of ACM SIGSOFT and IEEE Computer Society </a>
             </p>
             <p>
-                Please visit my <a href={scholarLink} target="_blank"> Google Scholar</a> page for my research. Eray
-                Tüzün received his bachelor’s and master’s
-                degrees in Computer Science and holds a PhD in Information Systems.
+                Please visit my <a href={scholarLink} target="_blank"> Google Scholar</a> page for my latest research.
+            </p>
+            <p>
+                    If you are interested in joining our group as a graduate (Masters and
+                    Ph.D.) or undergraduate volunteer student, please send an email or drop
+                    by. Summer interns are also welcome.
             </p>
 
         </div>
