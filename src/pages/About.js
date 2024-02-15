@@ -31,7 +31,8 @@ const About = () => {
                 Owner) certifications.
                 His research interests include software analytics, mining software repositories, and,
                 empirical software
-                engineering. He is the representative of the Bilkent University in the <a href={ISERNLink} target="_blank"> International Software Engineering Research Network (ISERN). He is a senior member of the IEEE, and a member of ACM SIGSOFT and IEEE Computer Society </a>
+                engineering. He is the representative of the Bilkent University in the <a href={ISERNLink} target="_blank"> International Software Engineering Research Network (ISERN). </a>
+                He is a senior member of the IEEE, and a member of ACM SIGSOFT and IEEE Computer Society
             </p>
             <p>
                 Please visit my <a href={scholarLink} target="_blank"> Google Scholar</a> page for my latest research.
