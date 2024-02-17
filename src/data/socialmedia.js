@@ -34,7 +34,7 @@ const socialmedia = [
     {
         icon: <EmailIcon style={{color: '#3a3333'}} />,
         text: 'Email',
-        link: 'mailto:<firstNameLastName@cs.bilkent.edu.tr',
+        link: 'mailto:<firstNameLastName>@cs.bilkent.edu.tr',
     },
 ];
 
