@@ -3,7 +3,7 @@ const tools = [
         title: "Smellyzer",
         explanation: "Designed to detect process smells in the code review and bug tracking processes. It identifies inefficiencies and potential issues in these critical aspects of software development, helping teams improve their workflows and enhance overall productivity. By analyzing patterns and trends in code review and bug tracking activities, Smellyzer provides actionable insights for better decision-making and process optimization. ",
         pi: "Eray Tüzün",
-        img: '/images/Smellyzer.jpg',
+        img: '/images/Smellyzer.jpeg',
     },
     {
         title: "CID (Change Impact Detector)",
