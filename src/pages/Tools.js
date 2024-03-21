@@ -15,7 +15,7 @@ export default function Tools() {
 
             <Grid container spacing={3}>
                 {tools.map(tool => (
-                    <Grid item key={tool.id} xs={6} sm={6} md={6}>
+                    <Grid item key={tool.id} xs={12} sm={12} md={6}>
                         <Card sx={{maxWidth: 500}}>
                             <CardMedia
                                 component="img"
