@@ -12,6 +12,12 @@ const tools = [
         img: '/images/CID.jpg',
     },
     {
+        title: "SAA",
+        explanation: "A tool to visually analyze varying software artifacts including source code files, pull requests, issues, and commits, as well as their links and their relationships with developers in a software project to improve the software development process",
+        pi: "Uğur Doğrusöz and Eray Tüzün",
+        img: '/images/SAA.gif',
+    },
+    {
         title: "PieR",
         explanation: " PieR (Pull Request Classifier): Analyzes pull requests within a specific repository to classify them according to the origin of the issue, which could be the requirements phase, design phase, or implementation phase. Additionally, the tool categorizes pull requests based on the types of changes they introduce.",
         pi: "Eray Tüzün",
