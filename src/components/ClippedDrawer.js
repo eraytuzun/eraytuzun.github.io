@@ -13,6 +13,7 @@ import About from "../pages/About";
 import ProfileContent from "./ProfileContent";
 import Contact from "../pages/Contact";
 import Activity from "../pages/Activity";
+import Tools from "../pages/Tools";
 
 export default function ClippedDrawer() {
     const [selectedPage, setSelectedPage] = useState('About');
@@ -43,7 +44,7 @@ export default function ClippedDrawer() {
         return () => window.removeEventListener('hashchange', handleHashChange);
     }, []);
 
-    const pages = ['About', 'Research', 'Publications', 'Activities', 'Talks', 'Teaching', 'Contact'];
+    const pages = ['About', 'Research', 'Publications', 'Activities', 'Tools', 'Talks', 'Teaching', 'Contact'];
 
     const renderPage = () => {
         switch (selectedPage) {
@@ -55,6 +56,8 @@ export default function ClippedDrawer() {
                 return <Publication />;
             case 'Activities':
                 return <Activity />;
+            case 'Tools':
+                return <Tools />;
             case 'Talks':
                 return <Talk />;
             case 'Teaching':
