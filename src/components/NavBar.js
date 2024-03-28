@@ -16,30 +16,26 @@ const pages = ['About', 'Research', 'Publications', 'Activities', 'Tools', 'Talk
 const NavBar = ({ onSelectPage }) => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
-
-    const handleCloseNavMenu = () => {
+    const closeNavMenu = () => {
         setAnchorElNav(null);
     };
 
-    const handlePageClick = (page) => {
+    const pageClick = (page) => {
         onSelectPage(page);
-        handleCloseNavMenu();
+        closeNavMenu();
         window.location.hash = `#${page.toLowerCase()}`;
     };
-
 
     return (
         <React.Fragment>
             <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }} style={{ background: '#3a3333' }}>
-                <Container maxWidth="xl">
+                <Container maxWidth="l">
                     <Toolbar id="back-to-top-anchor" disableGutters>
                         <Typography
                             variant="h6"
                             noWrap
                             component="a"
+                            onClick={() => pageClick("home")}
                             sx={{
                                 mr: 15,
                                 display: { xs: 'none', md: 'flex' },
@@ -62,7 +58,7 @@ const NavBar = ({ onSelectPage }) => {
                                 aria-label="account of current user"
                                 aria-controls="menu-appbar"
                                 aria-haspopup="true"
-                                onClick={handleOpenNavMenu}
+                                onClick={(event)=>  setAnchorElNav(event.currentTarget)}
                                 color="inherit"
                             >
                                 <MenuIcon />
@@ -80,13 +76,13 @@ const NavBar = ({ onSelectPage }) => {
                                     horizontal: 'left',
                                 }}
                                 open={Boolean(anchorElNav)}
-                                onClose={handleCloseNavMenu}
+                                onClose={closeNavMenu}
                                 sx={{
                                     display: { xs: 'block', md: 'none' },
                                 }}
                             >
                                 {pages.map((page) => (
-                                    <MenuItem key={page} onClick={() => handlePageClick(page)}>
+                                    <MenuItem key={page} onClick={() => pageClick(page)}>
                                         <Typography textAlign="center">{page}</Typography>
                                     </MenuItem>
                                 ))}
@@ -108,6 +104,7 @@ const NavBar = ({ onSelectPage }) => {
                                 textDecoration: 'none',
                                 "&:hover": { color: "#dcdbd9", textDecoration: "none", fontWeight: 900 }
                             }}
+                            onClick={() => pageClick("home")}
                         >
                             Eray Tüzün
                         </Typography>
@@ -115,7 +112,7 @@ const NavBar = ({ onSelectPage }) => {
                             {pages.map((page) => (
                                 <Button
                                     key={page}
-                                    onClick={() => handlePageClick(page)}
+                                    onClick={() => pageClick(page)}
                                     sx={{ my: 2, color: 'white', display: 'block' }}
                                 >
                                     {page}

@@ -4,9 +4,10 @@ import researches from "../data/researches";
 
 const Research = () => {
     return (
-        <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap'}}>
+        <div style={{padding: "0px 30px"}}>
+            <h3>Research</h3>
             {researches.map((research, index) => (
-                <Card key={index} sx={{mx: 5, my: 1, background:"rgba(58,51,51,0.03)"}}>
+                <Card key={index} sx={{my: 2, background: "rgba(58,51,51,0.03)"}}>
                     <CardContent style={{flex: 1}}>
                         <Typography variant="h5" component="div">
                             {research.title}
