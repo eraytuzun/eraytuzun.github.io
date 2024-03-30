@@ -30,9 +30,9 @@ export default function Tools() {
                                 <Typography gutterBottom variant="body2" component="div">
                                     {tool.explanation}
                                 </Typography>
-                                <Typography gutterBottom variant="body2" component="div">
-                                    PI: {tool.pi}
-                                </Typography>
+                               // <Typography gutterBottom variant="body2" component="div">
+                               //     PI: {tool.pi}
+                               // </Typography>
                             </CardContent>
                         </Card>
                     </Grid>
