@@ -62,4 +62,51 @@
     font-weight: bold;
 }
 
-/* Style additional details similarly, padding, margin, font-sizes etc. */
+.talks {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.publication {
+    animation: slideIn 0.4s ease;
+}
+
+.publications {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.publications.animate {
+    opacity: 1;
+}
+
+.talk {
+    animation: slideIn 0.4s ease;
+}
+
+.talks {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.talks.animate {
+    opacity: 1;
+}
+
+.year-section {
+    overflow: hidden; /* Ensures elements are not visible before animation */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+

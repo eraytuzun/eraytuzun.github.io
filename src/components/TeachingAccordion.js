@@ -11,7 +11,7 @@ export default function TeachingAccordion() {
     return (
         <div style={{display: 'flex', flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
             {sortedCourses.map((course, index) => (
-                <Accordion key={index} style={{background:"rgba(58,51,51,0.03)", width: '90%'}}>
+                <Accordion key={index} style={{background:"rgba(58,51,51,0.03)", width: '100%'}}>
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon/>}
                         aria-controls={`panel${index + 1}-content`}

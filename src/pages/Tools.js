@@ -12,25 +12,24 @@ export default function Tools() {
         <div style={{padding: "0px 30px"}}>
             <h3>Tools</h3>
             <p>If you are interested in exploring these tools further, please feel free to contact me for more information</p>
-
             <Grid container spacing={3}>
                 {tools.map(tool => (
-                    <Grid item key={tool.id} xs={12} sm={12} md={6}>
-                        <Card sx={{maxWidth: 500}}>
+                    <Grid item key={tool.id} xs={12} sm={12} md={12}>
+                        <Card sx={{maxWidth: "100%"}}>
                             <CardMedia
                                 component="img"
-                                sx={{height: 250}}
+                                sx={{height: "20%"}}
                                 image={tool.img}
                                 alt={tool.title}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="body" component="div">
-                                    {tool.title}
+                                    <b>{tool.title}</b>
                                 </Typography>
-                                <Typography gutterBottom variant="body2" component="div">
+                                <Typography gutterBottom variant="body1" component="div">
                                     {tool.explanation}
                                 </Typography>
-                               // <Typography gutterBottom variant="body2" component="div">
+                               // <Typography gutterBottom variant="body1" component="div">
                                //     PI: {tool.pi}
                                // </Typography>
                             </CardContent>
@@ -38,7 +37,6 @@ export default function Tools() {
                     </Grid>
                 ))}
             </Grid>
-
         </div>
     );
 }
