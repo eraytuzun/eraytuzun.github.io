@@ -7,9 +7,7 @@ import ProfileContent from "./ProfileContent";
 import Box from "@mui/material/Box";
 
 export default function () {
-
     const drawerWidth = 240;
-
 
     return (
         <Drawer

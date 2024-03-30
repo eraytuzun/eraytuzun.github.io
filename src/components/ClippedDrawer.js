@@ -44,6 +44,10 @@ export default function ClippedDrawer() {
         return () => window.removeEventListener('hashchange', handleHashChange);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0); // Reset scroll position when selectedPage changes
+    }, [selectedPage]);
+
     const pages = ['About', 'Research', 'Publications', 'Activities', 'Tools', 'Talks', 'Teaching', 'Contact'];
 
     const renderPage = () => {
