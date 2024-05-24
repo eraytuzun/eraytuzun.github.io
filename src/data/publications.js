@@ -69,7 +69,7 @@ const publications = [
         year: 2024,
         title: 'Do Code Reviews Lead to Fewer Code Smells?',
         authors: 'Erdem Tuna, Carolyn Seaman, Eray Tüzün',
-        venue: 'Journal of Systems and Software (Under Review)'
+        venue: 'Journal of Systems and Software'
     },
     {
         type: 'International Journal',

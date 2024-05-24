@@ -51,6 +51,12 @@ const researches = [
                 venue: 'Information and Software Technology',
                 date: '2021'
             },
+            {
+                authors: 'Erdem Tuna, Carolyn Seaman and Eray Tüzün',
+                title: 'Do Code Reviews Lead to Fewer Code Smells?',
+                venue: 'Information and Software Technology',
+                date: '2024'
+            },
         ],
     },
     {
@@ -108,7 +114,7 @@ const researches = [
             {
                 authors: 'Emre Sülün, Uğur Doğrusöz, Eray Tüzün',
                 title: 'RSTrace+: Reviewer Suggestion using Software Artifact Traceability Graphs',
-                venue: 'International Conference on Software Engineering, Practice Track',
+                venue: 'Information and Software Technology',
                 date: 'May 2022'
             },
         ],
