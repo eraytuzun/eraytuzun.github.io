@@ -1,7 +1,14 @@
 // publications.js
 const publications = [
     {
-        type: 'International Journal',
+        type: 'International Conference',
+        year: 2024,
+        title: 'Towards Unmasking LGTM Smells in Code Reviews: A Comparative Study of Comment-Free and Commented Reviews',
+        authors: 'Furkan Gon, Burak Yetistiren, Eray Tüzün',
+        venue: '40th IEEE International Conference on Software Maintenance and Evolution',
+    },
+    {
+        type: 'International Conference',
         year: 2020,
         title: 'ToolStackers: A Boardgame for SE Education',
         authors: 'Barış Ardıç, Eray Tüzün',
@@ -104,7 +111,7 @@ const publications = [
         year: 2022,
         title: 'Characterizing Duplicate Bugs: Perceptions of practitioners and an empirical analysis',
         authors: 'Berfin Küçük, İdil Hanhan, Eray Tüzün',
-        venue: 'Journal of Software: Evolution and Process (Under Review)'
+        venue: 'Journal of Software: Evolution and Process'
     },
     {
         type: 'International Journal',
@@ -233,14 +240,14 @@ const publications = [
         venue: 'Enterprise & Business Management, Tectum Verlag'
     },
     {
-        type: 'International Journal',
+        type: 'International Conference',
         year: 2020,
         title: 'CRSG: A Serious Game for teaching Code Review',
         authors: 'Kaan Ünlü, Barış Ardıç, Eray Tüzün',
         venue: '28th Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering'
     },
     {
-        type: 'International Journal',
+        type: 'International Conference',
         year: 2020,
         title: 'Creation of a Serious Game For Teaching Code Review: An Experience Report',
         authors: 'Barış Ardıç, İrem Yurdakul, Eray Tüzün',

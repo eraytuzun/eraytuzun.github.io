@@ -16,13 +16,13 @@ const About = () => {
             <p>
                 Eray Tüzün is currently a faculty member and leading the <a href={bilsenLink} target="_blank">Bilkent
                 University Software Engineering and Data Analytics Research Group (BILSEN)</a> in the Department of
-                Computer Engineering at Bilkent University. He received his bachelor’s and master’s degrees in Computer Science and holds a PhD in Information Systems. He has over 20 years of experience designing
-                and building software. Prior to joining Bilkent University, he worked 9 years in HAVELSAN in various
-                positions
-                (Productization Lead, Scrum Master, Product Owner, and Software Engineer).
+                Computer Engineering at Bilkent University. He received his bachelor’s and master’s degrees in Computer Science and holds a PhD in Information Systems. 
             </p>
             <p>
-                He has previously worked as a
+            He has over 20 years of experience designing
+                and building software. Prior to joining Bilkent University, he worked 9 years in Havelsan in various
+                positions
+                (Productization Lead, Scrum Master, Product Owner, and Software Engineer). He has previously worked as a
                 Software Design Engineer at Microsoft in Microsoft Online Services group, Senior Software Engineer at
                 Howard Hughes
                 Medical Institute and Research Engineer at CWRU Genomics Center.

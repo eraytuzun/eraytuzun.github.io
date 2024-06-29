@@ -5,6 +5,7 @@ const grants = [
     { id: 4, grant: "European Union ITEA4, 2022-2025, Title: Automated Quality Assurance and Optimization in Incremental Industrial Software Systems Development" },
     { id: 5, grant: "European Union ITEA4, 2024-2027, Title: GENIUS: Generative AI for the Software Development Life Cycle (Under Review)" },
     { id: 6, grant: "Arçelik Global, 2022-2024, Title: Analytics of Software Development Processes"},
+    { id: 7, grant: "Roketsan, 2024-2025, Title: Improvement of Software Development Processes"},
 ];
 
 export default grants;

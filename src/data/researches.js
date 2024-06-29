@@ -57,6 +57,13 @@ const researches = [
                 venue: 'Information and Software Technology',
                 date: '2024'
             },
+            {
+                authors: 'Furkan Gon, Burak Yetistiren, and Eray Tüzün',
+                title: 'Towards Unmasking LGTM Smells in Code Reviews: A Comparative Study of Comment-Free and Commented Reviews',
+                venue: '40th IEEE International Conference on Software Maintenance and Evolution',
+                date: '2024'
+            },
+            
         ],
     },
     {

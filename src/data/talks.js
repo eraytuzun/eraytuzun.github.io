@@ -1,6 +1,13 @@
 const talks = [
     {
         year: 2024,
+        title: 'From Hand-Crafted to AI-Driven: The Transformation of Software Engineering',
+        event: 'Science Academy Artificial Intelligence Summer School',
+        date: 'July 1-4, 2024',
+        location: 'Ankara, Turkey'
+    },
+    {
+        year: 2024,
         title: 'Process Smells in Software Engineering',
         event: 'Invited PhD Training Course Lecturer, University of Oulu',
         date: 'June 11-13, 2024',
