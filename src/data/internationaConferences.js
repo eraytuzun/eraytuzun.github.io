@@ -1,4 +1,11 @@
 const internationalConferences = [
+    
+    {
+        id: 21,
+        role: 'PC Chair',
+        conference: '28th International Conference on Evaluation and Assessment in Software Engineering (EASE), Industry Track',
+        year: '2024'
+    },
     {
         id: 1,
         role: 'Publicity Chair',
@@ -114,12 +121,7 @@ const internationalConferences = [
         conference: '41th International Conference on Software Engineering (ICSE), In Practice',
         year: '2019'
     },
-    {
-        id: 21,
-        role: 'PC Chair',
-        conference: '28th International Conference on Evaluation and Assessment in Software Engineering (EASE), Industry Track',
-        year: '2024'
-    },
+
 ];
 
 export default internationalConferences;
