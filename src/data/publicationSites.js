@@ -17,7 +17,7 @@ const publicationSites = [
     },
     {
         site: 'Semantic scholar',
-        link: 'https://www.semanticscholar.org/author/Eray-Tuzun/46859907'
+        link: 'https://www.semanticscholar.org/author/Eray-T%C3%BCz%C3%BCn/13576179'
     },
     {
         site: 'ResearcherId',
