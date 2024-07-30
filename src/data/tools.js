@@ -13,8 +13,8 @@ const tools = [
     },
     {
         title: "SAA",
-        explanation: "A tool to visually analyze varying software artifacts including source code files, pull requests, issues, and commits, as well as their links and their relationships with developers in a software project to improve the software development process",
-     //   pi: "Uğur Doğrusöz and Eray Tüzün",
+        explanation: "A tool to visually analyze varying software artifacts including source code files, pull requests, issues, and commits, as well as their links and their relationships with developers in a software project to improve the software development process. Check out <a href=\"https://ivis-at-bilkent.github.io/software-artifact-analyzer/\" target=\"_blank\">SAA Webpage</a> for more information.",
+        //   pi: "Uğur Doğrusöz and Eray Tüzün",
         img: '/images/SAA.gif',
     },
     {
