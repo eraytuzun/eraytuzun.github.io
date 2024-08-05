@@ -19,7 +19,7 @@ const tools = [
     },
     {
         title: "PieR",
-        explanation: " PieR (Pull Request Classifier): Analyzes pull requests within a specific repository to classify them according to the origin of the issue, which could be the requirements phase, design phase, or implementation phase. Additionally, the tool categorizes pull requests based on the types of changes they introduce.",
+        explanation: " PieR (Pull Request Classifier): Analyzes pull requests within a specific repository to classify them according to the origin of the issue, which could be the requirements phase, design phase, or implementation phase. Additionally, the tool categorizes pull requests based on the types of changes they introduce. Check out <a href=\"https://pier.tools/\" target=\"_blank\">PieR Webpage</a> for more information.",
     //    pi: "Eray Tüzün",
         img: '/images/PieR.jpg',
     },
