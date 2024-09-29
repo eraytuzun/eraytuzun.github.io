@@ -7,6 +7,12 @@ const internationalConferences = [
         year: '2024'
     },
     {
+        id: 22,
+        role: 'PC Member',
+        conference: '50th International Conference on Software Engineering (ICSE), In Practice',
+        year: '2025'
+    },
+    {
         id: 1,
         role: 'Publicity Chair',
         conference: '18th International Conference on Software and Systems Processes',
