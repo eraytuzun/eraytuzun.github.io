@@ -24,6 +24,13 @@ const publications = [
     {
         type: 'International Journal',
         year: 2024,
+        title: 'Enhanced Code Reviews Using Pull Request Based Change Impact Analysis',
+        authors: 'İsmail Sergen Göçmen, Ahmed Salih Cezayir, Eray Tüzün',
+        venue: 'Empirical Software Engineering'
+    },
+    {
+        type: 'International Journal',
+        year: 2024,
         title: 'An Empirical Analysis of Issue Templates Usage in Large-Scale Projects on GitHub',
         authors: 'Emre Sülün, Metehan Saçakcı, Eray Tüzün',
         venue: 'ACM Transactions on Software Engineering and Methodology'
