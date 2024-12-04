@@ -125,7 +125,7 @@ const publications = [
         year: 2023,
         title: 'Evaluating The Impact of a Serious Game Approach For Teaching The Code Review Practice',
         authors: 'Barış Ardıç, Eray Tüzün',
-        venue: 'Journal of Software: Evolution and Process (Under Review)'
+        venue: 'Journal of Software: Evolution and Process'
     },
     {
         type: 'International Conference',
@@ -317,7 +317,7 @@ const publications = [
         venue: 'The 15th International Conference on Predictive Models and Data Analytics in Software Engineering'
     },
     {
-        type: 'International Conferencel',
+        type: 'International Conference',
         year: 2019,
         title: 'Catching up with Method and Process Practice: A new Baseline for Researchers',
         authors: 'HELENA Consortium',
