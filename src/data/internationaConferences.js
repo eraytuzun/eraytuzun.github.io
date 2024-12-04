@@ -7,6 +7,12 @@ const internationalConferences = [
         year: '2025'
     },
     {
+        id: 23,
+        role: 'PC Member',
+        conference: '51st International Conference on Software Engineering (ICSE), Research Track',
+        year: '2025'
+    },
+    {
         id: 21,
         role: 'PC Chair',
         conference: '28th International Conference on Evaluation and Assessment in Software Engineering (EASE), Industry Track',
@@ -21,7 +27,7 @@ const internationalConferences = [
     {
         id: 2,
         role: 'PC Member',
-        conference: '46th International Conference on Software Engineering (ICSE)',
+        conference: '46th International Conference on Software Engineering (ICSE), Research Track',
         year: '2024'
     },
     {
