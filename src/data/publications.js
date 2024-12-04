@@ -122,7 +122,7 @@ const publications = [
     },
     {
         type: 'International Journal',
-        year: 2023,
+        year: 2024,
         title: 'Evaluating The Impact of a Serious Game Approach For Teaching The Code Review Practice',
         authors: 'Barış Ardıç, Eray Tüzün',
         venue: 'Journal of Software: Evolution and Process'
