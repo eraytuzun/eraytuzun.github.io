@@ -10,7 +10,7 @@ const internationalConferences = [
         id: 23,
         role: 'PC Member',
         conference: '51st International Conference on Software Engineering (ICSE), Research Track',
-        year: '2025'
+        year: '2026'
     },
     {
         id: 21,
