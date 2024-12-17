@@ -22,7 +22,7 @@ const internationalConferences = [
         id: 21,
         role: 'PC Chair',
         conference: '28th International Conference on Evaluation and Assessment in Software Engineering (EASE), Industry Track',
-        year: '2024'
+        year: '2025'
     },
     {
         id: 1,
