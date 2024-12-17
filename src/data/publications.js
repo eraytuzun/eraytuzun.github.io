@@ -9,6 +9,13 @@ const publications = [
     },
     {
         type: 'International Conference',
+        year: 2025,
+        title: 'Automated Code Review In Practice',
+        authors: 'Umut Cihan, Vahid Haratian, Arda Icoz, Mert Kaan Gul, Omercan Devran, Emircan Furkan Bayendur, Baykal Mehmet Ucar,Eray Tuzun',
+        venue: '47th IEEE International Conference on Software Engineering',
+    },
+    {
+        type: 'International Conference',
         year: 2020,
         title: 'ToolStackers: A Boardgame for SE Education',
         authors: 'Barış Ardıç, Eray Tüzün',
