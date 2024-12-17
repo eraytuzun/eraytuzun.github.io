@@ -3,14 +3,20 @@ const internationalConferences = [
     {
         id: 22,
         role: 'PC Member',
-        conference: '50th International Conference on Software Engineering (ICSE), In Practice',
+        conference: '47th International Conference on Software Engineering (ICSE), In Practice',
         year: '2025'
     },
     {
         id: 23,
         role: 'PC Member',
-        conference: '51st International Conference on Software Engineering (ICSE), Research Track',
+        conference: '48nd International Conference on Software Engineering (ICSE), Research Track',
         year: '2026'
+    },
+    {
+        id: 24,
+        role: 'PC Member',
+        conference: '47th International Conference on Software Engineering (ICSE), Student Research Competition',
+        year: '2025'
     },
     {
         id: 21,
