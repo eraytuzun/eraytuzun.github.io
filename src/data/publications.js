@@ -16,6 +16,13 @@ const publications = [
     },
     {
         type: 'International Conference',
+        year: 2025,
+        title: 'Evaluating ReLink for Traceability Link Recovery in Practice',
+        authors: 'Ayberk Yaşa and Cemhan Kaan Özaltan and Görkem Ayten and Fatih Kaplama and Ömercan Devran and Baykal Mehmet Uçar, Eray Tüzün',
+        venue: '32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering',
+    },
+    {
+        type: 'International Conference',
         year: 2020,
         title: 'ToolStackers: A Boardgame for SE Education',
         authors: 'Barış Ardıç, Eray Tüzün',
