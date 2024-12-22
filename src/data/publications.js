@@ -18,8 +18,15 @@ const publications = [
         type: 'International Conference',
         year: 2025,
         title: 'Evaluating ReLink for Traceability Link Recovery in Practice',
+        authors: 'Atakan Şerifoğlu, Eray Tüzün',
+        venue: '32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering, Early Research Achievements Track',
+    },
+    {
+        type: 'International Conference',
+        year: 2025,
+        title: 'Uncovering the Challenges: A Study of Corner Cases in Bug-Inducing Commits',
         authors: 'Ayberk Yaşa and Cemhan Kaan Özaltan and Görkem Ayten and Fatih Kaplama and Ömercan Devran and Baykal Mehmet Uçar, Eray Tüzün',
-        venue: '32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering',
+        venue: '32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering, Industry Track',
     },
     {
         type: 'International Conference',
