@@ -19,7 +19,7 @@ const publications = [
         year: 2025,
         title: 'Evaluating ReLink for Traceability Link Recovery in Practice',
         authors: 'Atakan Şerifoğlu, Eray Tüzün',
-        venue: '32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering, Early Research Achievements Track',
+        venue: '32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering, Early Research Achievements (ERA) Track',
     },
     {
         type: 'International Conference',
