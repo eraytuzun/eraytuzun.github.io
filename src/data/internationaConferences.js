@@ -19,6 +19,12 @@ const internationalConferences = [
         year: '2025'
     },
     {
+        id: 25,
+        role: 'PC Member',
+        conference: 'AIWare 2025',
+        year: '2025'
+    },
+    {
         id: 21,
         role: 'PC Chair',
         conference: '28th International Conference on Evaluation and Assessment in Software Engineering (EASE), Industry Track',
