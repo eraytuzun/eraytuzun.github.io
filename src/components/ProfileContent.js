@@ -26,7 +26,7 @@ export default function () {
             <div style={{flex: '1 1 90%', display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
                 {!isMobile && <h2 id="name" style={{paddingBottom: '0', marginBottom: '0'}}>Eray Tüzün</h2>}
                 {isMobile && <hr/>}
-                <p style={{fontSize: '0.8em',}}>Assistant Professor of Computer Engineering at Bilkent University <br/>
+                <p style={{fontSize: '0.8em',}}>Associate Professor of Computer Engineering at Bilkent University <br/>
                     <br/>
                     Head of BILSEN Research Group</p>
                 <div style={{}}>
@@ -49,7 +49,7 @@ export default function () {
                 </div>
             </div>
             <div id="copyright" style={{textAlign: 'center', flex: '1 1 10%'}}>
-                <p style={{fontSize: '0.8em', margin: 0}}>Copyright © 2024 Eray Tüzün<br/>All rights reserved</p>
+                <p style={{fontSize: '0.8em', margin: 0}}>Copyright © 2025 Eray Tüzün<br/>All rights reserved</p>
             </div>
         </div>
     );
