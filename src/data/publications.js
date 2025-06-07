@@ -24,6 +24,13 @@ const publications = [
     {
         type: 'International Conference',
         year: 2025,
+        title: 'Towards Automated Detection of Inline Code Comment Smells',
+        authors: 'Ipek Oztas, U Boran Torun, Eray Tüzün',
+        venue: '29th International Conference on Evaluation and Assessment in Software Engineering (EASE)',
+    },
+    {
+        type: 'International Conference',
+        year: 2025,
         title: 'Uncovering the Challenges: A Study of Corner Cases in Bug-Inducing Commits',
         authors: 'Atakan Şerifoğlu, Eray Tüzün',
         venue: '32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering, Early Research Achievements (ERA) Track',
@@ -44,7 +51,14 @@ const publications = [
     },
     {
         type: 'International Journal',
-        year: 2024,
+        year: 2025,
+        title: 'Process smells in practice: an evaluative case study',
+        authors: 'Uğur Can Altun, Ismail Sergen Göçmen, Emre Sülün, Erdem Tuna, Eray Tüzün',
+        venue: 'Empirical Software Engineering'
+    },
+    {
+        type: 'International Journal',
+        year: 2025,
         title: 'Enhanced Code Reviews Using Pull Request Based Change Impact Analysis',
         authors: 'İsmail Sergen Göçmen, Ahmed Salih Cezayir, Eray Tüzün',
         venue: 'Empirical Software Engineering'
