@@ -24,7 +24,7 @@ const internationalConferences = [
         conference: 'AIWare 2025',
         year: '2025'
     },
-      
+    {
         id: 26,
         role: 'PC Member',
         conference: '34th International Conference on ACM International Conference on the Foundations of Software Engineering (FSE) 2025',
