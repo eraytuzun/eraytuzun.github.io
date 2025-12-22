@@ -5,6 +5,7 @@ const journalReviewer = [
     { id: 4, journal: "Editorial Board Member, Journal of Software: Evolution and Process" },
     { id: 5, journal: "Journal of Systems and Software (JSS)" },
     { id: 6, journal: "Information and Software Technology (IST)" }
+    { id: 7, journal: "IEEE Software" }
 ];
 
 export default journalReviewer;
