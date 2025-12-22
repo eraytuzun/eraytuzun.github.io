@@ -4,7 +4,7 @@ const journalReviewer = [
     { id: 3, journal: "ACM Transactions on Software Engineering and Methodology (TOSEM)" },
     { id: 4, journal: "Editorial Board Member, Journal of Software: Evolution and Process" },
     { id: 5, journal: "Journal of Systems and Software (JSS)" },
-    { id: 6, journal: "Information and Software Technology (IST)" }
+    { id: 6, journal: "Information and Software Technology (IST)" },
     { id: 7, journal: "IEEE Software" }
 ];
 
